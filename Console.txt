@@ -1,0 +1,1 @@
+Scaffold-DbContext "Server=DESKTOP-9OP7BRT;Database=WMSLiteDB;Trusted_Connection=True;TrustServerCertificate=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Tables Contractors,GoodsReceiptDocuments,DocumentItems -Context WMSLiteDbContext -ContextDir Data -Force

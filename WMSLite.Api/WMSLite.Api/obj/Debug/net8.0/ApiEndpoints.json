@@ -1,0 +1,329 @@
+[
+  {
+    "ContainingType": "WMSLite.Api.Controllers.ContractorsController",
+    "Method": "GetContractors",
+    "RelativePath": "api/Contractors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[WMSLite.Api.Models.Contractor, WMSLite.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSLite.Api.Controllers.ContractorsController",
+    "Method": "PostContractor",
+    "RelativePath": "api/Contractors",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "contractor",
+        "Type": "WMSLite.Api.Models.Contractor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSLite.Api.Models.Contractor",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSLite.Api.Controllers.ContractorsController",
+    "Method": "GetContractor",
+    "RelativePath": "api/Contractors/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSLite.Api.Models.Contractor",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSLite.Api.Controllers.ContractorsController",
+    "Method": "PutContractor",
+    "RelativePath": "api/Contractors/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "contractor",
+        "Type": "WMSLite.Api.Models.Contractor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WMSLite.Api.Controllers.ContractorsController",
+    "Method": "DeleteContractor",
+    "RelativePath": "api/Contractors/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WMSLite.Api.Controllers.DocumentItemsController",
+    "Method": "GetDocumentItems",
+    "RelativePath": "api/DocumentItems",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[WMSLite.Api.Models.DocumentItem, WMSLite.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSLite.Api.Controllers.DocumentItemsController",
+    "Method": "PostDocumentItem",
+    "RelativePath": "api/DocumentItems",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "documentItem",
+        "Type": "WMSLite.Api.Models.DocumentItem",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSLite.Api.Models.DocumentItem",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSLite.Api.Controllers.DocumentItemsController",
+    "Method": "GetDocumentItem",
+    "RelativePath": "api/DocumentItems/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSLite.Api.Models.DocumentItem",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSLite.Api.Controllers.DocumentItemsController",
+    "Method": "PutDocumentItem",
+    "RelativePath": "api/DocumentItems/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "documentItem",
+        "Type": "WMSLite.Api.Models.DocumentItem",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WMSLite.Api.Controllers.DocumentItemsController",
+    "Method": "DeleteDocumentItem",
+    "RelativePath": "api/DocumentItems/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WMSLite.Api.Controllers.GoodsReceiptDocumentsController",
+    "Method": "GetGoodsReceiptDocuments",
+    "RelativePath": "api/GoodsReceiptDocuments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[WMSLite.Api.Models.GoodsReceiptDocument, WMSLite.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSLite.Api.Controllers.GoodsReceiptDocumentsController",
+    "Method": "PostGoodsReceiptDocument",
+    "RelativePath": "api/GoodsReceiptDocuments",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "goodsReceiptDocument",
+        "Type": "WMSLite.Api.Models.GoodsReceiptDocument",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSLite.Api.Models.GoodsReceiptDocument",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSLite.Api.Controllers.GoodsReceiptDocumentsController",
+    "Method": "GetGoodsReceiptDocument",
+    "RelativePath": "api/GoodsReceiptDocuments/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSLite.Api.Models.GoodsReceiptDocument",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSLite.Api.Controllers.GoodsReceiptDocumentsController",
+    "Method": "PutGoodsReceiptDocument",
+    "RelativePath": "api/GoodsReceiptDocuments/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "goodsReceiptDocument",
+        "Type": "WMSLite.Api.Models.GoodsReceiptDocument",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WMSLite.Api.Controllers.GoodsReceiptDocumentsController",
+    "Method": "DeleteGoodsReceiptDocument",
+    "RelativePath": "api/GoodsReceiptDocuments/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

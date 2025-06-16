@@ -1,0 +1,24 @@
+USE WMSLiteDB;
+
+CREATE TABLE Contractors (
+	Id INT PRIMARY KEY IDENTITY(1, 1) NOT NULL,
+	Symbol NVARCHAR(50) NOT NULL,
+	Name NVARCHAR(255) NOT NULL
+);
+
+CREATE TABLE GoodsReceiptDocuments (
+	Id INT PRIMARY KEY IDENTITY(1, 1) NOT NULL,
+	[Date] DATETIME2 NOT NULL,
+	Symbol NVARCHAR(50) NOT NULL,
+	ContractorId INT NOT NULL,
+	CONSTRAINT FK_GoodsReceiptDocuments_Contractors FOREIGN KEY (ContractorId) REFERENCES Contractors(Id) ON DELETE CASCADE
+);
+
+CREATE TABLE DocumentItems (
+	Id INT PRIMARY KEY IDENTITY(1, 1) NOT NULL,
+	ProductName NVARCHAR(255) NOT NULL,
+	UnitOfMeasure NVARCHAR(50) NOT NULL,
+	Quantity DECIMAL(18, 3) NOT NULL,
+	GoodsReceiptDocumentId INT NOT NULL,
+	CONSTRAINT FK_DocumentItems_GoodsReceiptDocuments FOREIGN KEY (GoodsReceiptDocumentId) REFERENCES GoodsReceiptDocuments(Id) ON DELETE CASCADE
+);
