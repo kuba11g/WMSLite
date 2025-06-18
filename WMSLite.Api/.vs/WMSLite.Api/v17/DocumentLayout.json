@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "WMSLite.Api\\Controllers\\GoodsReceiptDocumentsController.cs",
               "ToolTip": "D:\\Projekty Studia\\Zbi\u00F3r projekt\u00F3w\\WMSLite\\WMSLite.Api\\WMSLite.Api\\Controllers\\GoodsReceiptDocumentsController.cs",
               "RelativeToolTip": "WMSLite.Api\\Controllers\\GoodsReceiptDocumentsController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-16T23:11:01.819Z",
               "EditorCaption": ""
@@ -47,8 +47,7 @@
               "RelativeToolTip": "WMSLite.Api\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAB3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-16T22:24:01.981Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T22:24:01.981Z"
             },
             {
               "$type": "Document",
@@ -60,8 +59,7 @@
               "RelativeToolTip": "WMSLite.Api\\Program.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T22:08:52.415Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T22:08:52.415Z"
             }
           ]
         }

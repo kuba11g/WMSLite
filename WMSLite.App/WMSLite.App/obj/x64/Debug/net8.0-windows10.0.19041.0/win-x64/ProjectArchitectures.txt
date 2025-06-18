@@ -1,0 +1,1 @@
+D:\Projekty Studia\Zbiór projektów\WMSLite\WMSLite.App\WMSLite.App\WMSLite.App.csproj;x64

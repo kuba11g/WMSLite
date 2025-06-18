@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "WMSLite.App (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "WMSLite.App (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
