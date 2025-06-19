@@ -29,25 +29,25 @@
     <AppXManifest Include="D:\Projekty Studia\Zbiór projektów\WMSLite\WMSLite.App\WMSLite.App\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-06-18T14:40:29.378</Modified>
+      <Modified>2025-06-19T00:31:35.300</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Projekty Studia\Zbiór projektów\WMSLite\WMSLite.App\WMSLite.App\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-06-18T14:40:29.209</Modified>
+      <Modified>2025-06-19T00:28:21.503</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projekty Studia\Zbiór projektów\WMSLite\WMSLite.App\WMSLite.App\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\WMSLite.App.runtimeconfig.json">
       <PackagePath>WMSLite.App.runtimeconfig.json</PackagePath>
-      <Modified>2025-06-18T14:06:09.047</Modified>
+      <Modified>2025-06-19T00:28:21.103</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projekty Studia\Zbiór projektów\WMSLite\WMSLite.App\WMSLite.App\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\WMSLite.App.dll">
       <PackagePath>WMSLite.App.dll</PackagePath>
-      <Modified>2025-06-18T14:40:29.100</Modified>
+      <Modified>2025-06-19T00:31:34.440</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projekty Studia\Zbiór projektów\WMSLite\WMSLite.App\WMSLite.App\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\apphost.exe">
       <PackagePath>WMSLite.App.exe</PackagePath>
-      <Modified>2025-06-18T14:40:29.137</Modified>
+      <Modified>2025-06-19T00:31:34.531</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\table\.nuget\packages\microsoft.netcore.app.runtime.win-x64\8.0.17\runtimes\win-x64\lib\net8.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -789,6 +789,10 @@
       <PackagePath>CommunityToolkit.Mvvm.dll</PackagePath>
       <Modified>2024-12-12T07:54:40.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\table\.nuget\packages\communitytoolkit.winui.ui.controls.datagrid\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.UI.Controls.DataGrid.dll">
+      <PackagePath>CommunityToolkit.WinUI.UI.Controls.DataGrid.dll</PackagePath>
+      <Modified>2021-11-18T21:56:52.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\table\.nuget\packages\microsoft.windowsappsdk\1.7.250606001\lib\net6.0-windows10.0.18362.0\Microsoft.Graphics.Imaging.Projection.dll">
       <PackagePath>Microsoft.Graphics.Imaging.Projection.dll</PackagePath>
       <Modified>2025-05-13T21:41:02.000</Modified>
@@ -911,7 +915,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projekty Studia\Zbiór projektów\WMSLite\WMSLite.App\WMSLite.App\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\WMSLite.App.deps.json">
       <PackagePath>WMSLite.App.deps.json</PackagePath>
-      <Modified>2025-06-18T14:22:20.559</Modified>
+      <Modified>2025-06-19T00:28:21.056</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\table\.nuget\packages\communitytoolkit.winui.ui.controls.datagrid\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.UI.Controls.DataGrid.pri">
+      <PackagePath>CommunityToolkit.WinUI.UI.Controls.DataGrid.pri</PackagePath>
+      <Modified>2021-11-18T21:49:46.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projekty Studia\Zbiór projektów\WMSLite\WMSLite.App\WMSLite.App\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>

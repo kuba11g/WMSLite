@@ -6,9 +6,29 @@
     xmlns:local="using:WMSLite.App.Views"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:CommunityToolkit.WinUI.UI.Controls"
     mc:Ignorable="d">
 
-    <Grid>
+    <Grid RowDefinitions="Auto, *">
+        <CommandBar Grid.Row="0" DefaultLabelPosition="Right">
+            <AppBarButton x:Name="AddButton" Icon="Add" Label="Dodaj" Click="AddButton_Click"/>
+            <AppBarButton x:Name="EditButton" Icon="Edit" Label="Edytuj" Click="EditButton_Click"/>
+        </CommandBar>
+
+        <controls:DataGrid x:Name="ContractorsGrid"
+                           Grid.Row="1"
+                           ItemsSource="{x:Bind ViewModel.Contractors, Mode=OneWay}"
+                           AutoGenerateColumns="False"
+                           CanUserSortColumns="True"
+                           IsReadOnly="True"
+                           SelectionMode="Single"
+                           HeadersVisibility="Column"
+                           GridLinesVisibility="Horizontal">
+            <controls:DataGrid.Columns>
+                <controls:DataGridTextColumn Header="Symbol" Binding="{Binding Symbol}" Width="SizeToCells"/>
+                <controls:DataGridTextColumn Header="Nazwa" Binding="{Binding Name}" Width="*"/>
+            </controls:DataGrid.Columns>
+        </controls:DataGrid>
 
     </Grid>
 </Page>

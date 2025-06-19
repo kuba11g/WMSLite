@@ -592,6 +592,9 @@
     <AppxPackagedFile Include="C:\Users\table\.nuget\packages\communitytoolkit.mvvm\8.4.0\lib\net8.0-windows10.0.17763\CommunityToolkit.Mvvm.dll">
       <PackagePath>CommunityToolkit.Mvvm.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\table\.nuget\packages\communitytoolkit.winui.ui.controls.datagrid\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.UI.Controls.DataGrid.dll">
+      <PackagePath>CommunityToolkit.WinUI.UI.Controls.DataGrid.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\table\.nuget\packages\microsoft.windowsappsdk\1.7.250606001\lib\net6.0-windows10.0.18362.0\Microsoft.Graphics.Imaging.Projection.dll">
       <PackagePath>Microsoft.Graphics.Imaging.Projection.dll</PackagePath>
     </AppxPackagedFile>
@@ -684,6 +687,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projekty Studia\Zbiór projektów\WMSLite\WMSLite.App\WMSLite.App\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\WMSLite.App.deps.json">
       <PackagePath>WMSLite.App.deps.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\table\.nuget\packages\communitytoolkit.winui.ui.controls.datagrid\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.UI.Controls.DataGrid.pri">
+      <PackagePath>CommunityToolkit.WinUI.UI.Controls.DataGrid.pri</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projekty Studia\Zbiór projektów\WMSLite\WMSLite.App\WMSLite.App\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>

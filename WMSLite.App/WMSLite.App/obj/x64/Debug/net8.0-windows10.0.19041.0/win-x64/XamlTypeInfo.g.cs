@@ -226,7 +226,7 @@ namespace WMSLite.App.WMSLite_App_XamlTypeInfo
         
         private void InitTypeTables()
         {
-            _typeNameTable = new string[45];
+            _typeNameTable = new string[73];
             _typeNameTable[0] = "Microsoft.UI.Xaml.Controls.XamlControlsResources";
             _typeNameTable[1] = "Microsoft.UI.Xaml.ResourceDictionary";
             _typeNameTable[2] = "Object";
@@ -235,45 +235,73 @@ namespace WMSLite.App.WMSLite_App_XamlTypeInfo
             _typeNameTable[5] = "Microsoft.UI.Xaml.Controls.ContentDialog";
             _typeNameTable[6] = "Microsoft.UI.Xaml.Controls.ContentControl";
             _typeNameTable[7] = "WMSLite.App.Models.Contractor";
-            _typeNameTable[8] = "WMSLite.App.Views.ContractorsPage";
-            _typeNameTable[9] = "Microsoft.UI.Xaml.Controls.Page";
-            _typeNameTable[10] = "Microsoft.UI.Xaml.Controls.UserControl";
-            _typeNameTable[11] = "WMSLite.App.Views.DocumentsPage";
-            _typeNameTable[12] = "WMSLite.App.Views.HomePage";
-            _typeNameTable[13] = "Microsoft.UI.Xaml.Controls.NavigationView";
-            _typeNameTable[14] = "Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode";
-            _typeNameTable[15] = "System.Enum";
-            _typeNameTable[16] = "System.ValueType";
-            _typeNameTable[17] = "Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible";
-            _typeNameTable[18] = "System.Collections.Generic.IList`1<Object>";
-            _typeNameTable[19] = "Microsoft.UI.Xaml.Controls.AutoSuggestBox";
+            _typeNameTable[8] = "CommunityToolkit.WinUI.UI.Controls.DataGrid";
+            _typeNameTable[9] = "Microsoft.UI.Xaml.Controls.Control";
+            _typeNameTable[10] = "System.Collections.IEnumerable";
+            _typeNameTable[11] = "CommunityToolkit.WinUI.UI.Controls.DataGridSelectionMode";
+            _typeNameTable[12] = "System.Enum";
+            _typeNameTable[13] = "System.ValueType";
+            _typeNameTable[14] = "CommunityToolkit.WinUI.UI.Controls.DataGridHeadersVisibility";
+            _typeNameTable[15] = "CommunityToolkit.WinUI.UI.Controls.DataGridGridLinesVisibility";
+            _typeNameTable[16] = "System.Collections.ObjectModel.ObservableCollection`1<CommunityToolkit.WinUI.UI.Controls.DataGridColumn>";
+            _typeNameTable[17] = "System.Collections.ObjectModel.Collection`1<CommunityToolkit.WinUI.UI.Controls.DataGridColumn>";
+            _typeNameTable[18] = "CommunityToolkit.WinUI.UI.Controls.DataGridColumn";
+            _typeNameTable[19] = "Microsoft.UI.Xaml.DependencyObject";
             _typeNameTable[20] = "Double";
-            _typeNameTable[21] = "Microsoft.UI.Xaml.UIElement";
-            _typeNameTable[22] = "Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode";
-            _typeNameTable[23] = "Microsoft.UI.Xaml.DataTemplate";
-            _typeNameTable[24] = "Microsoft.UI.Xaml.Style";
-            _typeNameTable[25] = "Microsoft.UI.Xaml.Controls.StyleSelector";
-            _typeNameTable[26] = "Microsoft.UI.Xaml.Controls.DataTemplateSelector";
-            _typeNameTable[27] = "Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode";
-            _typeNameTable[28] = "String";
-            _typeNameTable[29] = "Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus";
-            _typeNameTable[30] = "Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled";
-            _typeNameTable[31] = "Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings";
-            _typeNameTable[32] = "Microsoft.UI.Xaml.DependencyObject";
-            _typeNameTable[33] = "Microsoft.UI.Xaml.Controls.NavigationViewItem";
-            _typeNameTable[34] = "Microsoft.UI.Xaml.Controls.NavigationViewItemBase";
-            _typeNameTable[35] = "Microsoft.UI.Xaml.Controls.IconElement";
-            _typeNameTable[36] = "Microsoft.UI.Xaml.Controls.InfoBadge";
-            _typeNameTable[37] = "Microsoft.UI.Xaml.Controls.Control";
-            _typeNameTable[38] = "Microsoft.UI.Xaml.Controls.NavigationViewItemSeparator";
-            _typeNameTable[39] = "Microsoft.UI.Xaml.Controls.NavigationViewItemHeader";
-            _typeNameTable[40] = "WMSLite.App.Views.MainWindow";
-            _typeNameTable[41] = "Microsoft.UI.Xaml.Window";
-            _typeNameTable[42] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
-            _typeNameTable[43] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
-            _typeNameTable[44] = "Int32";
+            _typeNameTable[21] = "Microsoft.UI.Xaml.Style";
+            _typeNameTable[22] = "Microsoft.UI.Xaml.Data.Binding";
+            _typeNameTable[23] = "Int32";
+            _typeNameTable[24] = "System.Nullable`1<CommunityToolkit.WinUI.UI.Controls.DataGridSortDirection>";
+            _typeNameTable[25] = "CommunityToolkit.WinUI.UI.Controls.DataGridSortDirection";
+            _typeNameTable[26] = "Microsoft.UI.Xaml.Visibility";
+            _typeNameTable[27] = "CommunityToolkit.WinUI.UI.Controls.DataGridLength";
+            _typeNameTable[28] = "Microsoft.UI.Xaml.Media.Brush";
+            _typeNameTable[29] = "CommunityToolkit.WinUI.UI.Controls.DataGridClipboardCopyMode";
+            _typeNameTable[30] = "Microsoft.UI.Xaml.Controls.ScrollBarVisibility";
+            _typeNameTable[31] = "Microsoft.UI.Xaml.Controls.IncrementalLoadingTrigger";
+            _typeNameTable[32] = "Microsoft.UI.Xaml.DataTemplate";
+            _typeNameTable[33] = "CommunityToolkit.WinUI.UI.Controls.DataGridRowDetailsVisibilityMode";
+            _typeNameTable[34] = "String";
+            _typeNameTable[35] = "System.Collections.ObjectModel.ObservableCollection`1<Microsoft.UI.Xaml.Style>";
+            _typeNameTable[36] = "System.Collections.ObjectModel.Collection`1<Microsoft.UI.Xaml.Style>";
+            _typeNameTable[37] = "System.Collections.IList";
+            _typeNameTable[38] = "CommunityToolkit.WinUI.UI.Controls.DataGridTextColumn";
+            _typeNameTable[39] = "CommunityToolkit.WinUI.UI.Controls.DataGridBoundColumn";
+            _typeNameTable[40] = "Microsoft.UI.Xaml.Media.FontFamily";
+            _typeNameTable[41] = "Windows.UI.Text.FontStyle";
+            _typeNameTable[42] = "Windows.UI.Text.FontWeight";
+            _typeNameTable[43] = "WMSLite.App.Views.ContractorsPage";
+            _typeNameTable[44] = "Microsoft.UI.Xaml.Controls.Page";
+            _typeNameTable[45] = "Microsoft.UI.Xaml.Controls.UserControl";
+            _typeNameTable[46] = "WMSLite.App.ViewModels.ContractorsViewModel";
+            _typeNameTable[47] = "CommunityToolkit.Mvvm.ComponentModel.ObservableObject";
+            _typeNameTable[48] = "WMSLite.App.Views.DocumentsPage";
+            _typeNameTable[49] = "WMSLite.App.Views.HomePage";
+            _typeNameTable[50] = "Microsoft.UI.Xaml.Controls.NavigationView";
+            _typeNameTable[51] = "Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode";
+            _typeNameTable[52] = "Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible";
+            _typeNameTable[53] = "System.Collections.Generic.IList`1<Object>";
+            _typeNameTable[54] = "Microsoft.UI.Xaml.Controls.AutoSuggestBox";
+            _typeNameTable[55] = "Microsoft.UI.Xaml.UIElement";
+            _typeNameTable[56] = "Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode";
+            _typeNameTable[57] = "Microsoft.UI.Xaml.Controls.StyleSelector";
+            _typeNameTable[58] = "Microsoft.UI.Xaml.Controls.DataTemplateSelector";
+            _typeNameTable[59] = "Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode";
+            _typeNameTable[60] = "Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus";
+            _typeNameTable[61] = "Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled";
+            _typeNameTable[62] = "Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings";
+            _typeNameTable[63] = "Microsoft.UI.Xaml.Controls.NavigationViewItem";
+            _typeNameTable[64] = "Microsoft.UI.Xaml.Controls.NavigationViewItemBase";
+            _typeNameTable[65] = "Microsoft.UI.Xaml.Controls.IconElement";
+            _typeNameTable[66] = "Microsoft.UI.Xaml.Controls.InfoBadge";
+            _typeNameTable[67] = "Microsoft.UI.Xaml.Controls.NavigationViewItemSeparator";
+            _typeNameTable[68] = "Microsoft.UI.Xaml.Controls.NavigationViewItemHeader";
+            _typeNameTable[69] = "WMSLite.App.Views.MainWindow";
+            _typeNameTable[70] = "Microsoft.UI.Xaml.Window";
+            _typeNameTable[71] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
+            _typeNameTable[72] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
 
-            _typeTable = new global::System.Type[45];
+            _typeTable = new global::System.Type[73];
             _typeTable[0] = typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources);
             _typeTable[1] = typeof(global::Microsoft.UI.Xaml.ResourceDictionary);
             _typeTable[2] = typeof(global::System.Object);
@@ -282,43 +310,71 @@ namespace WMSLite.App.WMSLite_App_XamlTypeInfo
             _typeTable[5] = typeof(global::Microsoft.UI.Xaml.Controls.ContentDialog);
             _typeTable[6] = typeof(global::Microsoft.UI.Xaml.Controls.ContentControl);
             _typeTable[7] = typeof(global::WMSLite.App.Models.Contractor);
-            _typeTable[8] = typeof(global::WMSLite.App.Views.ContractorsPage);
-            _typeTable[9] = typeof(global::Microsoft.UI.Xaml.Controls.Page);
-            _typeTable[10] = typeof(global::Microsoft.UI.Xaml.Controls.UserControl);
-            _typeTable[11] = typeof(global::WMSLite.App.Views.DocumentsPage);
-            _typeTable[12] = typeof(global::WMSLite.App.Views.HomePage);
-            _typeTable[13] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationView);
-            _typeTable[14] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode);
-            _typeTable[15] = typeof(global::System.Enum);
-            _typeTable[16] = typeof(global::System.ValueType);
-            _typeTable[17] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible);
-            _typeTable[18] = typeof(global::System.Collections.Generic.IList<global::System.Object>);
-            _typeTable[19] = typeof(global::Microsoft.UI.Xaml.Controls.AutoSuggestBox);
+            _typeTable[8] = typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGrid);
+            _typeTable[9] = typeof(global::Microsoft.UI.Xaml.Controls.Control);
+            _typeTable[10] = typeof(global::System.Collections.IEnumerable);
+            _typeTable[11] = typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridSelectionMode);
+            _typeTable[12] = typeof(global::System.Enum);
+            _typeTable[13] = typeof(global::System.ValueType);
+            _typeTable[14] = typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridHeadersVisibility);
+            _typeTable[15] = typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridGridLinesVisibility);
+            _typeTable[16] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn>);
+            _typeTable[17] = typeof(global::System.Collections.ObjectModel.Collection<global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn>);
+            _typeTable[18] = typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn);
+            _typeTable[19] = typeof(global::Microsoft.UI.Xaml.DependencyObject);
             _typeTable[20] = typeof(global::System.Double);
-            _typeTable[21] = typeof(global::Microsoft.UI.Xaml.UIElement);
-            _typeTable[22] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode);
-            _typeTable[23] = typeof(global::Microsoft.UI.Xaml.DataTemplate);
-            _typeTable[24] = typeof(global::Microsoft.UI.Xaml.Style);
-            _typeTable[25] = typeof(global::Microsoft.UI.Xaml.Controls.StyleSelector);
-            _typeTable[26] = typeof(global::Microsoft.UI.Xaml.Controls.DataTemplateSelector);
-            _typeTable[27] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode);
-            _typeTable[28] = typeof(global::System.String);
-            _typeTable[29] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus);
-            _typeTable[30] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled);
-            _typeTable[31] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings);
-            _typeTable[32] = typeof(global::Microsoft.UI.Xaml.DependencyObject);
-            _typeTable[33] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewItem);
-            _typeTable[34] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewItemBase);
-            _typeTable[35] = typeof(global::Microsoft.UI.Xaml.Controls.IconElement);
-            _typeTable[36] = typeof(global::Microsoft.UI.Xaml.Controls.InfoBadge);
-            _typeTable[37] = typeof(global::Microsoft.UI.Xaml.Controls.Control);
-            _typeTable[38] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewItemSeparator);
-            _typeTable[39] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewItemHeader);
-            _typeTable[40] = typeof(global::WMSLite.App.Views.MainWindow);
-            _typeTable[41] = typeof(global::Microsoft.UI.Xaml.Window);
-            _typeTable[42] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
-            _typeTable[43] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
-            _typeTable[44] = typeof(global::System.Int32);
+            _typeTable[21] = typeof(global::Microsoft.UI.Xaml.Style);
+            _typeTable[22] = typeof(global::Microsoft.UI.Xaml.Data.Binding);
+            _typeTable[23] = typeof(global::System.Int32);
+            _typeTable[24] = typeof(global::System.Nullable<global::CommunityToolkit.WinUI.UI.Controls.DataGridSortDirection>);
+            _typeTable[25] = typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridSortDirection);
+            _typeTable[26] = typeof(global::Microsoft.UI.Xaml.Visibility);
+            _typeTable[27] = typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridLength);
+            _typeTable[28] = typeof(global::Microsoft.UI.Xaml.Media.Brush);
+            _typeTable[29] = typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridClipboardCopyMode);
+            _typeTable[30] = typeof(global::Microsoft.UI.Xaml.Controls.ScrollBarVisibility);
+            _typeTable[31] = typeof(global::Microsoft.UI.Xaml.Controls.IncrementalLoadingTrigger);
+            _typeTable[32] = typeof(global::Microsoft.UI.Xaml.DataTemplate);
+            _typeTable[33] = typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridRowDetailsVisibilityMode);
+            _typeTable[34] = typeof(global::System.String);
+            _typeTable[35] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::Microsoft.UI.Xaml.Style>);
+            _typeTable[36] = typeof(global::System.Collections.ObjectModel.Collection<global::Microsoft.UI.Xaml.Style>);
+            _typeTable[37] = typeof(global::System.Collections.IList);
+            _typeTable[38] = typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridTextColumn);
+            _typeTable[39] = typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridBoundColumn);
+            _typeTable[40] = typeof(global::Microsoft.UI.Xaml.Media.FontFamily);
+            _typeTable[41] = typeof(global::Windows.UI.Text.FontStyle);
+            _typeTable[42] = typeof(global::Windows.UI.Text.FontWeight);
+            _typeTable[43] = typeof(global::WMSLite.App.Views.ContractorsPage);
+            _typeTable[44] = typeof(global::Microsoft.UI.Xaml.Controls.Page);
+            _typeTable[45] = typeof(global::Microsoft.UI.Xaml.Controls.UserControl);
+            _typeTable[46] = typeof(global::WMSLite.App.ViewModels.ContractorsViewModel);
+            _typeTable[47] = typeof(global::CommunityToolkit.Mvvm.ComponentModel.ObservableObject);
+            _typeTable[48] = typeof(global::WMSLite.App.Views.DocumentsPage);
+            _typeTable[49] = typeof(global::WMSLite.App.Views.HomePage);
+            _typeTable[50] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationView);
+            _typeTable[51] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode);
+            _typeTable[52] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible);
+            _typeTable[53] = typeof(global::System.Collections.Generic.IList<global::System.Object>);
+            _typeTable[54] = typeof(global::Microsoft.UI.Xaml.Controls.AutoSuggestBox);
+            _typeTable[55] = typeof(global::Microsoft.UI.Xaml.UIElement);
+            _typeTable[56] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode);
+            _typeTable[57] = typeof(global::Microsoft.UI.Xaml.Controls.StyleSelector);
+            _typeTable[58] = typeof(global::Microsoft.UI.Xaml.Controls.DataTemplateSelector);
+            _typeTable[59] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode);
+            _typeTable[60] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus);
+            _typeTable[61] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled);
+            _typeTable[62] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings);
+            _typeTable[63] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewItem);
+            _typeTable[64] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewItemBase);
+            _typeTable[65] = typeof(global::Microsoft.UI.Xaml.Controls.IconElement);
+            _typeTable[66] = typeof(global::Microsoft.UI.Xaml.Controls.InfoBadge);
+            _typeTable[67] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewItemSeparator);
+            _typeTable[68] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewItemHeader);
+            _typeTable[69] = typeof(global::WMSLite.App.Views.MainWindow);
+            _typeTable[70] = typeof(global::Microsoft.UI.Xaml.Window);
+            _typeTable[71] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
+            _typeTable[72] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -355,42 +411,71 @@ namespace WMSLite.App.WMSLite_App_XamlTypeInfo
 
         private object Activate_0_XamlControlsResources() { return new global::Microsoft.UI.Xaml.Controls.XamlControlsResources(); }
         private object Activate_7_Contractor() { return new global::WMSLite.App.Models.Contractor(); }
-        private object Activate_8_ContractorsPage() { return new global::WMSLite.App.Views.ContractorsPage(); }
-        private object Activate_11_DocumentsPage() { return new global::WMSLite.App.Views.DocumentsPage(); }
-        private object Activate_12_HomePage() { return new global::WMSLite.App.Views.HomePage(); }
-        private object Activate_13_NavigationView() { return new global::Microsoft.UI.Xaml.Controls.NavigationView(); }
-        private object Activate_31_NavigationViewTemplateSettings() { return new global::Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings(); }
-        private object Activate_33_NavigationViewItem() { return new global::Microsoft.UI.Xaml.Controls.NavigationViewItem(); }
-        private object Activate_36_InfoBadge() { return new global::Microsoft.UI.Xaml.Controls.InfoBadge(); }
-        private object Activate_38_NavigationViewItemSeparator() { return new global::Microsoft.UI.Xaml.Controls.NavigationViewItemSeparator(); }
-        private object Activate_39_NavigationViewItemHeader() { return new global::Microsoft.UI.Xaml.Controls.NavigationViewItemHeader(); }
-        private object Activate_40_MainWindow() { return new global::WMSLite.App.Views.MainWindow(); }
-        private object Activate_42_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
+        private object Activate_8_DataGrid() { return new global::CommunityToolkit.WinUI.UI.Controls.DataGrid(); }
+        private object Activate_16_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn>(); }
+        private object Activate_17_Collection() { return new global::System.Collections.ObjectModel.Collection<global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn>(); }
+        private object Activate_35_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::Microsoft.UI.Xaml.Style>(); }
+        private object Activate_36_Collection() { return new global::System.Collections.ObjectModel.Collection<global::Microsoft.UI.Xaml.Style>(); }
+        private object Activate_38_DataGridTextColumn() { return new global::CommunityToolkit.WinUI.UI.Controls.DataGridTextColumn(); }
+        private object Activate_43_ContractorsPage() { return new global::WMSLite.App.Views.ContractorsPage(); }
+        private object Activate_46_ContractorsViewModel() { return new global::WMSLite.App.ViewModels.ContractorsViewModel(); }
+        private object Activate_48_DocumentsPage() { return new global::WMSLite.App.Views.DocumentsPage(); }
+        private object Activate_49_HomePage() { return new global::WMSLite.App.Views.HomePage(); }
+        private object Activate_50_NavigationView() { return new global::Microsoft.UI.Xaml.Controls.NavigationView(); }
+        private object Activate_62_NavigationViewTemplateSettings() { return new global::Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings(); }
+        private object Activate_63_NavigationViewItem() { return new global::Microsoft.UI.Xaml.Controls.NavigationViewItem(); }
+        private object Activate_66_InfoBadge() { return new global::Microsoft.UI.Xaml.Controls.InfoBadge(); }
+        private object Activate_67_NavigationViewItemSeparator() { return new global::Microsoft.UI.Xaml.Controls.NavigationViewItemSeparator(); }
+        private object Activate_68_NavigationViewItemHeader() { return new global::Microsoft.UI.Xaml.Controls.NavigationViewItemHeader(); }
+        private object Activate_69_MainWindow() { return new global::WMSLite.App.Views.MainWindow(); }
+        private object Activate_71_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
         private void StaticInitializer_0_XamlControlsResources() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources).TypeHandle);
         private void StaticInitializer_4_ContractorDialog() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::WMSLite.App.Dialogs.ContractorDialog).TypeHandle);
         private void StaticInitializer_7_Contractor() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::WMSLite.App.Models.Contractor).TypeHandle);
-        private void StaticInitializer_8_ContractorsPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::WMSLite.App.Views.ContractorsPage).TypeHandle);
-        private void StaticInitializer_11_DocumentsPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::WMSLite.App.Views.DocumentsPage).TypeHandle);
-        private void StaticInitializer_12_HomePage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::WMSLite.App.Views.HomePage).TypeHandle);
-        private void StaticInitializer_13_NavigationView() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationView).TypeHandle);
-        private void StaticInitializer_14_NavigationViewPaneDisplayMode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode).TypeHandle);
-        private void StaticInitializer_15_Enum() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Enum).TypeHandle);
-        private void StaticInitializer_16_ValueType() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.ValueType).TypeHandle);
-        private void StaticInitializer_17_NavigationViewBackButtonVisible() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible).TypeHandle);
-        private void StaticInitializer_18_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IList<global::System.Object>).TypeHandle);
-        private void StaticInitializer_22_NavigationViewDisplayMode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode).TypeHandle);
-        private void StaticInitializer_27_NavigationViewOverflowLabelMode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode).TypeHandle);
-        private void StaticInitializer_29_NavigationViewSelectionFollowsFocus() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus).TypeHandle);
-        private void StaticInitializer_30_NavigationViewShoulderNavigationEnabled() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled).TypeHandle);
-        private void StaticInitializer_31_NavigationViewTemplateSettings() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings).TypeHandle);
-        private void StaticInitializer_33_NavigationViewItem() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewItem).TypeHandle);
-        private void StaticInitializer_34_NavigationViewItemBase() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewItemBase).TypeHandle);
-        private void StaticInitializer_36_InfoBadge() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.InfoBadge).TypeHandle);
-        private void StaticInitializer_38_NavigationViewItemSeparator() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewItemSeparator).TypeHandle);
-        private void StaticInitializer_39_NavigationViewItemHeader() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewItemHeader).TypeHandle);
-        private void StaticInitializer_40_MainWindow() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::WMSLite.App.Views.MainWindow).TypeHandle);
-        private void StaticInitializer_42_TreeViewNode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode).TypeHandle);
-        private void StaticInitializer_43_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>).TypeHandle);
+        private void StaticInitializer_8_DataGrid() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGrid).TypeHandle);
+        private void StaticInitializer_10_IEnumerable() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.IEnumerable).TypeHandle);
+        private void StaticInitializer_11_DataGridSelectionMode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridSelectionMode).TypeHandle);
+        private void StaticInitializer_12_Enum() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Enum).TypeHandle);
+        private void StaticInitializer_13_ValueType() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.ValueType).TypeHandle);
+        private void StaticInitializer_14_DataGridHeadersVisibility() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridHeadersVisibility).TypeHandle);
+        private void StaticInitializer_15_DataGridGridLinesVisibility() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridGridLinesVisibility).TypeHandle);
+        private void StaticInitializer_16_ObservableCollection() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.ObjectModel.ObservableCollection<global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn>).TypeHandle);
+        private void StaticInitializer_17_Collection() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.ObjectModel.Collection<global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn>).TypeHandle);
+        private void StaticInitializer_18_DataGridColumn() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn).TypeHandle);
+        private void StaticInitializer_24_Nullable() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Nullable<global::CommunityToolkit.WinUI.UI.Controls.DataGridSortDirection>).TypeHandle);
+        private void StaticInitializer_25_DataGridSortDirection() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridSortDirection).TypeHandle);
+        private void StaticInitializer_27_DataGridLength() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridLength).TypeHandle);
+        private void StaticInitializer_29_DataGridClipboardCopyMode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridClipboardCopyMode).TypeHandle);
+        private void StaticInitializer_33_DataGridRowDetailsVisibilityMode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridRowDetailsVisibilityMode).TypeHandle);
+        private void StaticInitializer_35_ObservableCollection() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.ObjectModel.ObservableCollection<global::Microsoft.UI.Xaml.Style>).TypeHandle);
+        private void StaticInitializer_36_Collection() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.ObjectModel.Collection<global::Microsoft.UI.Xaml.Style>).TypeHandle);
+        private void StaticInitializer_37_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.IList).TypeHandle);
+        private void StaticInitializer_38_DataGridTextColumn() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridTextColumn).TypeHandle);
+        private void StaticInitializer_39_DataGridBoundColumn() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridBoundColumn).TypeHandle);
+        private void StaticInitializer_41_FontStyle() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Windows.UI.Text.FontStyle).TypeHandle);
+        private void StaticInitializer_42_FontWeight() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Windows.UI.Text.FontWeight).TypeHandle);
+        private void StaticInitializer_43_ContractorsPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::WMSLite.App.Views.ContractorsPage).TypeHandle);
+        private void StaticInitializer_46_ContractorsViewModel() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::WMSLite.App.ViewModels.ContractorsViewModel).TypeHandle);
+        private void StaticInitializer_47_ObservableObject() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::CommunityToolkit.Mvvm.ComponentModel.ObservableObject).TypeHandle);
+        private void StaticInitializer_48_DocumentsPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::WMSLite.App.Views.DocumentsPage).TypeHandle);
+        private void StaticInitializer_49_HomePage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::WMSLite.App.Views.HomePage).TypeHandle);
+        private void StaticInitializer_50_NavigationView() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationView).TypeHandle);
+        private void StaticInitializer_51_NavigationViewPaneDisplayMode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode).TypeHandle);
+        private void StaticInitializer_52_NavigationViewBackButtonVisible() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible).TypeHandle);
+        private void StaticInitializer_53_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IList<global::System.Object>).TypeHandle);
+        private void StaticInitializer_56_NavigationViewDisplayMode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode).TypeHandle);
+        private void StaticInitializer_59_NavigationViewOverflowLabelMode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode).TypeHandle);
+        private void StaticInitializer_60_NavigationViewSelectionFollowsFocus() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus).TypeHandle);
+        private void StaticInitializer_61_NavigationViewShoulderNavigationEnabled() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled).TypeHandle);
+        private void StaticInitializer_62_NavigationViewTemplateSettings() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings).TypeHandle);
+        private void StaticInitializer_63_NavigationViewItem() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewItem).TypeHandle);
+        private void StaticInitializer_64_NavigationViewItemBase() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewItemBase).TypeHandle);
+        private void StaticInitializer_66_InfoBadge() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.InfoBadge).TypeHandle);
+        private void StaticInitializer_67_NavigationViewItemSeparator() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewItemSeparator).TypeHandle);
+        private void StaticInitializer_68_NavigationViewItemHeader() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewItemHeader).TypeHandle);
+        private void StaticInitializer_69_MainWindow() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::WMSLite.App.Views.MainWindow).TypeHandle);
+        private void StaticInitializer_71_TreeViewNode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode).TypeHandle);
+        private void StaticInitializer_72_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>).TypeHandle);
         private void MapAdd_0_XamlControlsResources(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.Object, global::System.Object>)instance;
@@ -398,13 +483,37 @@ namespace WMSLite.App.WMSLite_App_XamlTypeInfo
             var newItem = (global::System.Object)item;
             collection.Add(newKey, newItem);
         }
-        private void VectorAdd_18_IList(object instance, object item)
+        private void VectorAdd_16_ObservableCollection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn>)instance;
+            var newItem = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_17_Collection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn>)instance;
+            var newItem = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_35_ObservableCollection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Microsoft.UI.Xaml.Style>)instance;
+            var newItem = (global::Microsoft.UI.Xaml.Style)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_36_Collection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Microsoft.UI.Xaml.Style>)instance;
+            var newItem = (global::Microsoft.UI.Xaml.Style)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_53_IList(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::System.Object>)instance;
             var newItem = (global::System.Object)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_43_IList(object instance, object item)
+        private void VectorAdd_72_IList(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Microsoft.UI.Xaml.Controls.TreeViewNode>)instance;
             var newItem = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)item;
@@ -466,42 +575,354 @@ namespace WMSLite.App.WMSLite_App_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 8:   //  WMSLite.App.Views.ContractorsPage
-                userType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_8_ContractorsPage;
-                userType.StaticInitializer = StaticInitializer_8_ContractorsPage;
-                userType.SetIsLocalType();
+            case 8:   //  CommunityToolkit.WinUI.UI.Controls.DataGrid
+                userType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Control"));
+                userType.Activator = Activate_8_DataGrid;
+                userType.StaticInitializer = StaticInitializer_8_DataGrid;
+                userType.AddMemberName("ItemsSource");
+                userType.AddMemberName("AutoGenerateColumns");
+                userType.AddMemberName("CanUserSortColumns");
+                userType.AddMemberName("IsReadOnly");
+                userType.AddMemberName("SelectionMode");
+                userType.AddMemberName("HeadersVisibility");
+                userType.AddMemberName("GridLinesVisibility");
+                userType.AddMemberName("Columns");
+                userType.AddMemberName("AlternatingRowBackground");
+                userType.AddMemberName("AlternatingRowForeground");
+                userType.AddMemberName("AreRowDetailsFrozen");
+                userType.AddMemberName("AreRowGroupHeadersFrozen");
+                userType.AddMemberName("CanUserReorderColumns");
+                userType.AddMemberName("CanUserResizeColumns");
+                userType.AddMemberName("CellStyle");
+                userType.AddMemberName("ClipboardCopyMode");
+                userType.AddMemberName("ColumnHeaderHeight");
+                userType.AddMemberName("ColumnHeaderStyle");
+                userType.AddMemberName("ColumnWidth");
+                userType.AddMemberName("DataFetchSize");
+                userType.AddMemberName("DragIndicatorStyle");
+                userType.AddMemberName("DropLocationIndicatorStyle");
+                userType.AddMemberName("FrozenColumnCount");
+                userType.AddMemberName("HorizontalGridLinesBrush");
+                userType.AddMemberName("HorizontalScrollBarVisibility");
+                userType.AddMemberName("IsValid");
+                userType.AddMemberName("IncrementalLoadingThreshold");
+                userType.AddMemberName("IncrementalLoadingTrigger");
+                userType.AddMemberName("MaxColumnWidth");
+                userType.AddMemberName("MinColumnWidth");
+                userType.AddMemberName("RowBackground");
+                userType.AddMemberName("RowDetailsTemplate");
+                userType.AddMemberName("RowDetailsVisibilityMode");
+                userType.AddMemberName("RowForeground");
+                userType.AddMemberName("RowHeight");
+                userType.AddMemberName("RowHeaderWidth");
+                userType.AddMemberName("RowHeaderStyle");
+                userType.AddMemberName("RowStyle");
+                userType.AddMemberName("SelectedIndex");
+                userType.AddMemberName("SelectedItem");
+                userType.AddMemberName("VerticalGridLinesBrush");
+                userType.AddMemberName("VerticalScrollBarVisibility");
+                userType.AddMemberName("CurrentColumn");
+                userType.AddMemberName("RowGroupHeaderPropertyNameAlternative");
+                userType.AddMemberName("RowGroupHeaderStyles");
+                userType.AddMemberName("SelectedItems");
                 xamlType = userType;
                 break;
 
-            case 9:   //  Microsoft.UI.Xaml.Controls.Page
+            case 9:   //  Microsoft.UI.Xaml.Controls.Control
                 xamlType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 10:   //  Microsoft.UI.Xaml.Controls.UserControl
+            case 10:   //  System.Collections.IEnumerable
+                userType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType(this, typeName, type, null);
+                userType.StaticInitializer = StaticInitializer_10_IEnumerable;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 11:   //  CommunityToolkit.WinUI.UI.Controls.DataGridSelectionMode
+                userType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.StaticInitializer = StaticInitializer_11_DataGridSelectionMode;
+                userType.AddEnumValue("Extended", global::CommunityToolkit.WinUI.UI.Controls.DataGridSelectionMode.Extended);
+                userType.AddEnumValue("Single", global::CommunityToolkit.WinUI.UI.Controls.DataGridSelectionMode.Single);
+                xamlType = userType;
+                break;
+
+            case 12:   //  System.Enum
+                userType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
+                userType.StaticInitializer = StaticInitializer_12_Enum;
+                xamlType = userType;
+                break;
+
+            case 13:   //  System.ValueType
+                userType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.StaticInitializer = StaticInitializer_13_ValueType;
+                xamlType = userType;
+                break;
+
+            case 14:   //  CommunityToolkit.WinUI.UI.Controls.DataGridHeadersVisibility
+                userType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.StaticInitializer = StaticInitializer_14_DataGridHeadersVisibility;
+                userType.AddEnumValue("None", global::CommunityToolkit.WinUI.UI.Controls.DataGridHeadersVisibility.None);
+                userType.AddEnumValue("Column", global::CommunityToolkit.WinUI.UI.Controls.DataGridHeadersVisibility.Column);
+                userType.AddEnumValue("Row", global::CommunityToolkit.WinUI.UI.Controls.DataGridHeadersVisibility.Row);
+                userType.AddEnumValue("All", global::CommunityToolkit.WinUI.UI.Controls.DataGridHeadersVisibility.All);
+                xamlType = userType;
+                break;
+
+            case 15:   //  CommunityToolkit.WinUI.UI.Controls.DataGridGridLinesVisibility
+                userType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.StaticInitializer = StaticInitializer_15_DataGridGridLinesVisibility;
+                userType.AddEnumValue("None", global::CommunityToolkit.WinUI.UI.Controls.DataGridGridLinesVisibility.None);
+                userType.AddEnumValue("Horizontal", global::CommunityToolkit.WinUI.UI.Controls.DataGridGridLinesVisibility.Horizontal);
+                userType.AddEnumValue("Vertical", global::CommunityToolkit.WinUI.UI.Controls.DataGridGridLinesVisibility.Vertical);
+                userType.AddEnumValue("All", global::CommunityToolkit.WinUI.UI.Controls.DataGridGridLinesVisibility.All);
+                xamlType = userType;
+                break;
+
+            case 16:   //  System.Collections.ObjectModel.ObservableCollection`1<CommunityToolkit.WinUI.UI.Controls.DataGridColumn>
+                userType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<CommunityToolkit.WinUI.UI.Controls.DataGridColumn>"));
+                userType.StaticInitializer = StaticInitializer_16_ObservableCollection;
+                userType.CollectionAdd = VectorAdd_16_ObservableCollection;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 17:   //  System.Collections.ObjectModel.Collection`1<CommunityToolkit.WinUI.UI.Controls.DataGridColumn>
+                userType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_17_Collection;
+                userType.StaticInitializer = StaticInitializer_17_Collection;
+                userType.CollectionAdd = VectorAdd_17_Collection;
+                xamlType = userType;
+                break;
+
+            case 18:   //  CommunityToolkit.WinUI.UI.Controls.DataGridColumn
+                userType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
+                userType.StaticInitializer = StaticInitializer_18_DataGridColumn;
+                userType.AddMemberName("ActualWidth");
+                userType.AddMemberName("CanUserReorder");
+                userType.AddMemberName("CanUserResize");
+                userType.AddMemberName("CanUserSort");
+                userType.AddMemberName("CellStyle");
+                userType.AddMemberName("ClipboardContentBinding");
+                userType.AddMemberName("DisplayIndex");
+                userType.AddMemberName("DragIndicatorStyle");
+                userType.AddMemberName("HeaderStyle");
+                userType.AddMemberName("Header");
+                userType.AddMemberName("IsAutoGenerated");
+                userType.AddMemberName("IsFrozen");
+                userType.AddMemberName("IsReadOnly");
+                userType.AddMemberName("MaxWidth");
+                userType.AddMemberName("MinWidth");
+                userType.AddMemberName("SortDirection");
+                userType.AddMemberName("Tag");
+                userType.AddMemberName("Visibility");
+                userType.AddMemberName("Width");
+                xamlType = userType;
+                break;
+
+            case 19:   //  Microsoft.UI.Xaml.DependencyObject
                 xamlType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 11:   //  WMSLite.App.Views.DocumentsPage
+            case 20:   //  Double
+                xamlType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 21:   //  Microsoft.UI.Xaml.Style
+                xamlType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 22:   //  Microsoft.UI.Xaml.Data.Binding
+                xamlType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 23:   //  Int32
+                xamlType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 24:   //  System.Nullable`1<CommunityToolkit.WinUI.UI.Controls.DataGridSortDirection>
+                userType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
+                userType.SetBoxedType(GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridSortDirection"));
+                userType.BoxInstance = userType.BoxType<global::CommunityToolkit.WinUI.UI.Controls.DataGridSortDirection>;
+                userType.StaticInitializer = StaticInitializer_24_Nullable;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 25:   //  CommunityToolkit.WinUI.UI.Controls.DataGridSortDirection
+                userType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.StaticInitializer = StaticInitializer_25_DataGridSortDirection;
+                userType.AddEnumValue("Ascending", global::CommunityToolkit.WinUI.UI.Controls.DataGridSortDirection.Ascending);
+                userType.AddEnumValue("Descending", global::CommunityToolkit.WinUI.UI.Controls.DataGridSortDirection.Descending);
+                xamlType = userType;
+                break;
+
+            case 26:   //  Microsoft.UI.Xaml.Visibility
+                xamlType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 27:   //  CommunityToolkit.WinUI.UI.Controls.DataGridLength
+                userType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
+                userType.StaticInitializer = StaticInitializer_27_DataGridLength;
+                userType.CreateFromStringMethod = x => (global::System.Object)global::CommunityToolkit.WinUI.UI.Controls.DataGridLength.ConvertFromString(x);
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 28:   //  Microsoft.UI.Xaml.Media.Brush
+                xamlType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 29:   //  CommunityToolkit.WinUI.UI.Controls.DataGridClipboardCopyMode
+                userType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.StaticInitializer = StaticInitializer_29_DataGridClipboardCopyMode;
+                userType.AddEnumValue("None", global::CommunityToolkit.WinUI.UI.Controls.DataGridClipboardCopyMode.None);
+                userType.AddEnumValue("ExcludeHeader", global::CommunityToolkit.WinUI.UI.Controls.DataGridClipboardCopyMode.ExcludeHeader);
+                userType.AddEnumValue("IncludeHeader", global::CommunityToolkit.WinUI.UI.Controls.DataGridClipboardCopyMode.IncludeHeader);
+                xamlType = userType;
+                break;
+
+            case 30:   //  Microsoft.UI.Xaml.Controls.ScrollBarVisibility
+                xamlType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 31:   //  Microsoft.UI.Xaml.Controls.IncrementalLoadingTrigger
+                xamlType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 32:   //  Microsoft.UI.Xaml.DataTemplate
+                xamlType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 33:   //  CommunityToolkit.WinUI.UI.Controls.DataGridRowDetailsVisibilityMode
+                userType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.StaticInitializer = StaticInitializer_33_DataGridRowDetailsVisibilityMode;
+                userType.AddEnumValue("VisibleWhenSelected", global::CommunityToolkit.WinUI.UI.Controls.DataGridRowDetailsVisibilityMode.VisibleWhenSelected);
+                userType.AddEnumValue("Visible", global::CommunityToolkit.WinUI.UI.Controls.DataGridRowDetailsVisibilityMode.Visible);
+                userType.AddEnumValue("Collapsed", global::CommunityToolkit.WinUI.UI.Controls.DataGridRowDetailsVisibilityMode.Collapsed);
+                xamlType = userType;
+                break;
+
+            case 34:   //  String
+                xamlType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 35:   //  System.Collections.ObjectModel.ObservableCollection`1<Microsoft.UI.Xaml.Style>
+                userType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<Microsoft.UI.Xaml.Style>"));
+                userType.StaticInitializer = StaticInitializer_35_ObservableCollection;
+                userType.CollectionAdd = VectorAdd_35_ObservableCollection;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 36:   //  System.Collections.ObjectModel.Collection`1<Microsoft.UI.Xaml.Style>
+                userType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_36_Collection;
+                userType.StaticInitializer = StaticInitializer_36_Collection;
+                userType.CollectionAdd = VectorAdd_36_Collection;
+                xamlType = userType;
+                break;
+
+            case 37:   //  System.Collections.IList
+                userType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType(this, typeName, type, null);
+                userType.StaticInitializer = StaticInitializer_37_IList;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 38:   //  CommunityToolkit.WinUI.UI.Controls.DataGridTextColumn
+                userType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridBoundColumn"));
+                userType.Activator = Activate_38_DataGridTextColumn;
+                userType.StaticInitializer = StaticInitializer_38_DataGridTextColumn;
+                userType.AddMemberName("FontFamily");
+                userType.AddMemberName("FontSize");
+                userType.AddMemberName("FontStyle");
+                userType.AddMemberName("FontWeight");
+                userType.AddMemberName("Foreground");
+                xamlType = userType;
+                break;
+
+            case 39:   //  CommunityToolkit.WinUI.UI.Controls.DataGridBoundColumn
+                userType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn"));
+                userType.StaticInitializer = StaticInitializer_39_DataGridBoundColumn;
+                userType.AddMemberName("Binding");
+                userType.AddMemberName("ClipboardContentBinding");
+                userType.AddMemberName("EditingElementStyle");
+                userType.AddMemberName("ElementStyle");
+                xamlType = userType;
+                break;
+
+            case 40:   //  Microsoft.UI.Xaml.Media.FontFamily
+                xamlType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 41:   //  Windows.UI.Text.FontStyle
+                userType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.StaticInitializer = StaticInitializer_41_FontStyle;
+                userType.AddEnumValue("Normal", global::Windows.UI.Text.FontStyle.Normal);
+                userType.AddEnumValue("Oblique", global::Windows.UI.Text.FontStyle.Oblique);
+                userType.AddEnumValue("Italic", global::Windows.UI.Text.FontStyle.Italic);
+                xamlType = userType;
+                break;
+
+            case 42:   //  Windows.UI.Text.FontWeight
+                userType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
+                userType.StaticInitializer = StaticInitializer_42_FontWeight;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 43:   //  WMSLite.App.Views.ContractorsPage
                 userType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_11_DocumentsPage;
-                userType.StaticInitializer = StaticInitializer_11_DocumentsPage;
+                userType.Activator = Activate_43_ContractorsPage;
+                userType.StaticInitializer = StaticInitializer_43_ContractorsPage;
+                userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 12:   //  WMSLite.App.Views.HomePage
-                userType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_12_HomePage;
-                userType.StaticInitializer = StaticInitializer_12_HomePage;
+            case 44:   //  Microsoft.UI.Xaml.Controls.Page
+                xamlType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 45:   //  Microsoft.UI.Xaml.Controls.UserControl
+                xamlType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 46:   //  WMSLite.App.ViewModels.ContractorsViewModel
+                userType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableObject"));
+                userType.StaticInitializer = StaticInitializer_46_ContractorsViewModel;
+                userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 13:   //  Microsoft.UI.Xaml.Controls.NavigationView
+            case 47:   //  CommunityToolkit.Mvvm.ComponentModel.ObservableObject
+                userType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.StaticInitializer = StaticInitializer_47_ObservableObject;
+                xamlType = userType;
+                break;
+
+            case 48:   //  WMSLite.App.Views.DocumentsPage
+                userType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_48_DocumentsPage;
+                userType.StaticInitializer = StaticInitializer_48_DocumentsPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 49:   //  WMSLite.App.Views.HomePage
+                userType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_49_HomePage;
+                userType.StaticInitializer = StaticInitializer_49_HomePage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 50:   //  Microsoft.UI.Xaml.Controls.NavigationView
                 userType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ContentControl"));
-                userType.Activator = Activate_13_NavigationView;
-                userType.StaticInitializer = StaticInitializer_13_NavigationView;
+                userType.Activator = Activate_50_NavigationView;
+                userType.StaticInitializer = StaticInitializer_50_NavigationView;
                 userType.AddMemberName("PaneDisplayMode");
                 userType.AddMemberName("IsBackButtonVisible");
                 userType.AddMemberName("IsSettingsVisible");
@@ -542,9 +963,9 @@ namespace WMSLite.App.WMSLite_App_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 14:   //  Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode
+            case 51:   //  Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode
                 userType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
-                userType.StaticInitializer = StaticInitializer_14_NavigationViewPaneDisplayMode;
+                userType.StaticInitializer = StaticInitializer_51_NavigationViewPaneDisplayMode;
                 userType.AddEnumValue("Auto", global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode.Auto);
                 userType.AddEnumValue("Left", global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode.Left);
                 userType.AddEnumValue("Top", global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode.Top);
@@ -553,116 +974,84 @@ namespace WMSLite.App.WMSLite_App_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 15:   //  System.Enum
-                userType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
-                userType.StaticInitializer = StaticInitializer_15_Enum;
-                xamlType = userType;
-                break;
-
-            case 16:   //  System.ValueType
-                userType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.StaticInitializer = StaticInitializer_16_ValueType;
-                xamlType = userType;
-                break;
-
-            case 17:   //  Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible
+            case 52:   //  Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible
                 userType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
-                userType.StaticInitializer = StaticInitializer_17_NavigationViewBackButtonVisible;
+                userType.StaticInitializer = StaticInitializer_52_NavigationViewBackButtonVisible;
                 userType.AddEnumValue("Collapsed", global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible.Collapsed);
                 userType.AddEnumValue("Visible", global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible.Visible);
                 userType.AddEnumValue("Auto", global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible.Auto);
                 xamlType = userType;
                 break;
 
-            case 18:   //  System.Collections.Generic.IList`1<Object>
+            case 53:   //  System.Collections.Generic.IList`1<Object>
                 userType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.StaticInitializer = StaticInitializer_18_IList;
-                userType.CollectionAdd = VectorAdd_18_IList;
+                userType.StaticInitializer = StaticInitializer_53_IList;
+                userType.CollectionAdd = VectorAdd_53_IList;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 19:   //  Microsoft.UI.Xaml.Controls.AutoSuggestBox
+            case 54:   //  Microsoft.UI.Xaml.Controls.AutoSuggestBox
                 xamlType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 20:   //  Double
+            case 55:   //  Microsoft.UI.Xaml.UIElement
                 xamlType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 21:   //  Microsoft.UI.Xaml.UIElement
-                xamlType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 22:   //  Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode
+            case 56:   //  Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode
                 userType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
-                userType.StaticInitializer = StaticInitializer_22_NavigationViewDisplayMode;
+                userType.StaticInitializer = StaticInitializer_56_NavigationViewDisplayMode;
                 userType.AddEnumValue("Minimal", global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode.Minimal);
                 userType.AddEnumValue("Compact", global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode.Compact);
                 userType.AddEnumValue("Expanded", global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode.Expanded);
                 xamlType = userType;
                 break;
 
-            case 23:   //  Microsoft.UI.Xaml.DataTemplate
+            case 57:   //  Microsoft.UI.Xaml.Controls.StyleSelector
                 xamlType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 24:   //  Microsoft.UI.Xaml.Style
+            case 58:   //  Microsoft.UI.Xaml.Controls.DataTemplateSelector
                 xamlType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 25:   //  Microsoft.UI.Xaml.Controls.StyleSelector
-                xamlType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 26:   //  Microsoft.UI.Xaml.Controls.DataTemplateSelector
-                xamlType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 27:   //  Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode
+            case 59:   //  Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode
                 userType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
-                userType.StaticInitializer = StaticInitializer_27_NavigationViewOverflowLabelMode;
+                userType.StaticInitializer = StaticInitializer_59_NavigationViewOverflowLabelMode;
                 userType.AddEnumValue("MoreLabel", global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode.MoreLabel);
                 userType.AddEnumValue("NoLabel", global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode.NoLabel);
                 xamlType = userType;
                 break;
 
-            case 28:   //  String
-                xamlType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 29:   //  Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus
+            case 60:   //  Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus
                 userType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
-                userType.StaticInitializer = StaticInitializer_29_NavigationViewSelectionFollowsFocus;
+                userType.StaticInitializer = StaticInitializer_60_NavigationViewSelectionFollowsFocus;
                 userType.AddEnumValue("Disabled", global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus.Disabled);
                 userType.AddEnumValue("Enabled", global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus.Enabled);
                 xamlType = userType;
                 break;
 
-            case 30:   //  Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled
+            case 61:   //  Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled
                 userType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
-                userType.StaticInitializer = StaticInitializer_30_NavigationViewShoulderNavigationEnabled;
+                userType.StaticInitializer = StaticInitializer_61_NavigationViewShoulderNavigationEnabled;
                 userType.AddEnumValue("WhenSelectionFollowsFocus", global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled.WhenSelectionFollowsFocus);
                 userType.AddEnumValue("Always", global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled.Always);
                 userType.AddEnumValue("Never", global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled.Never);
                 xamlType = userType;
                 break;
 
-            case 31:   //  Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings
+            case 62:   //  Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings
                 userType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
-                userType.StaticInitializer = StaticInitializer_31_NavigationViewTemplateSettings;
+                userType.StaticInitializer = StaticInitializer_62_NavigationViewTemplateSettings;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 32:   //  Microsoft.UI.Xaml.DependencyObject
-                xamlType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 33:   //  Microsoft.UI.Xaml.Controls.NavigationViewItem
+            case 63:   //  Microsoft.UI.Xaml.Controls.NavigationViewItem
                 userType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItemBase"));
-                userType.Activator = Activate_33_NavigationViewItem;
-                userType.StaticInitializer = StaticInitializer_33_NavigationViewItem;
+                userType.Activator = Activate_63_NavigationViewItem;
+                userType.StaticInitializer = StaticInitializer_63_NavigationViewItem;
                 userType.AddMemberName("Icon");
                 userType.AddMemberName("CompactPaneLength");
                 userType.AddMemberName("HasUnrealizedChildren");
@@ -675,58 +1064,54 @@ namespace WMSLite.App.WMSLite_App_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 34:   //  Microsoft.UI.Xaml.Controls.NavigationViewItemBase
+            case 64:   //  Microsoft.UI.Xaml.Controls.NavigationViewItemBase
                 userType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ContentControl"));
-                userType.StaticInitializer = StaticInitializer_34_NavigationViewItemBase;
+                userType.StaticInitializer = StaticInitializer_64_NavigationViewItemBase;
                 userType.AddMemberName("IsSelected");
                 xamlType = userType;
                 break;
 
-            case 35:   //  Microsoft.UI.Xaml.Controls.IconElement
+            case 65:   //  Microsoft.UI.Xaml.Controls.IconElement
                 xamlType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 36:   //  Microsoft.UI.Xaml.Controls.InfoBadge
+            case 66:   //  Microsoft.UI.Xaml.Controls.InfoBadge
                 userType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Control"));
-                userType.StaticInitializer = StaticInitializer_36_InfoBadge;
+                userType.StaticInitializer = StaticInitializer_66_InfoBadge;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 37:   //  Microsoft.UI.Xaml.Controls.Control
-                xamlType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 38:   //  Microsoft.UI.Xaml.Controls.NavigationViewItemSeparator
+            case 67:   //  Microsoft.UI.Xaml.Controls.NavigationViewItemSeparator
                 userType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItemBase"));
-                userType.Activator = Activate_38_NavigationViewItemSeparator;
-                userType.StaticInitializer = StaticInitializer_38_NavigationViewItemSeparator;
+                userType.Activator = Activate_67_NavigationViewItemSeparator;
+                userType.StaticInitializer = StaticInitializer_67_NavigationViewItemSeparator;
                 xamlType = userType;
                 break;
 
-            case 39:   //  Microsoft.UI.Xaml.Controls.NavigationViewItemHeader
+            case 68:   //  Microsoft.UI.Xaml.Controls.NavigationViewItemHeader
                 userType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItemBase"));
-                userType.Activator = Activate_39_NavigationViewItemHeader;
-                userType.StaticInitializer = StaticInitializer_39_NavigationViewItemHeader;
+                userType.Activator = Activate_68_NavigationViewItemHeader;
+                userType.StaticInitializer = StaticInitializer_68_NavigationViewItemHeader;
                 xamlType = userType;
                 break;
 
-            case 40:   //  WMSLite.App.Views.MainWindow
+            case 69:   //  WMSLite.App.Views.MainWindow
                 userType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Window"));
-                userType.Activator = Activate_40_MainWindow;
-                userType.StaticInitializer = StaticInitializer_40_MainWindow;
+                userType.Activator = Activate_69_MainWindow;
+                userType.StaticInitializer = StaticInitializer_69_MainWindow;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 41:   //  Microsoft.UI.Xaml.Window
+            case 70:   //  Microsoft.UI.Xaml.Window
                 xamlType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 42:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
+            case 71:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
                 userType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_42_TreeViewNode;
-                userType.StaticInitializer = StaticInitializer_42_TreeViewNode;
+                userType.Activator = Activate_71_TreeViewNode;
+                userType.StaticInitializer = StaticInitializer_71_TreeViewNode;
                 userType.AddMemberName("Children");
                 userType.AddMemberName("Content");
                 userType.AddMemberName("Depth");
@@ -738,16 +1123,12 @@ namespace WMSLite.App.WMSLite_App_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 43:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
+            case 72:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
                 userType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.StaticInitializer = StaticInitializer_43_IList;
-                userType.CollectionAdd = VectorAdd_43_IList;
+                userType.StaticInitializer = StaticInitializer_72_IList;
+                userType.CollectionAdd = VectorAdd_72_IList;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
-                break;
-
-            case 44:   //  Int32
-                xamlType = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }
             return xamlType;
@@ -763,6 +1144,8 @@ namespace WMSLite.App.WMSLite_App_XamlTypeInfo
                     var otherProviders = new global::System.Collections.Generic.List<global::Microsoft.UI.Xaml.Markup.IXamlMetadataProvider>();
                     global::Microsoft.UI.Xaml.Markup.IXamlMetadataProvider provider;
                     provider = new global::Microsoft.UI.Xaml.XamlTypeInfo.XamlControlsXamlMetaDataProvider() as global::Microsoft.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::CommunityToolkit.WinUI.UI.Controls.CommunityToolkit_WinUI_UI_Controls_DataGrid_XamlTypeInfo.XamlMetaDataProvider() as global::Microsoft.UI.Xaml.Markup.IXamlMetadataProvider;
                     otherProviders.Add(provider); 
                     _otherProviders = otherProviders;
                 }
@@ -828,487 +1211,1197 @@ namespace WMSLite.App.WMSLite_App_XamlTypeInfo
             var that = (global::WMSLite.App.Dialogs.ContractorDialog)instance;
             that.Contractor = (global::WMSLite.App.Models.Contractor)Value;
         }
-        private object get_2_NavigationView_PaneDisplayMode(object instance)
+        private object get_2_DataGrid_ItemsSource(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.ItemsSource;
+        }
+        private void set_2_DataGrid_ItemsSource(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.ItemsSource = (global::System.Collections.IEnumerable)Value;
+        }
+        private object get_3_DataGrid_AutoGenerateColumns(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.AutoGenerateColumns;
+        }
+        private void set_3_DataGrid_AutoGenerateColumns(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.AutoGenerateColumns = (global::System.Boolean)Value;
+        }
+        private object get_4_DataGrid_CanUserSortColumns(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.CanUserSortColumns;
+        }
+        private void set_4_DataGrid_CanUserSortColumns(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.CanUserSortColumns = (global::System.Boolean)Value;
+        }
+        private object get_5_DataGrid_IsReadOnly(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.IsReadOnly;
+        }
+        private void set_5_DataGrid_IsReadOnly(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.IsReadOnly = (global::System.Boolean)Value;
+        }
+        private object get_6_DataGrid_SelectionMode(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.SelectionMode;
+        }
+        private void set_6_DataGrid_SelectionMode(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.SelectionMode = (global::CommunityToolkit.WinUI.UI.Controls.DataGridSelectionMode)Value;
+        }
+        private object get_7_DataGrid_HeadersVisibility(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.HeadersVisibility;
+        }
+        private void set_7_DataGrid_HeadersVisibility(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.HeadersVisibility = (global::CommunityToolkit.WinUI.UI.Controls.DataGridHeadersVisibility)Value;
+        }
+        private object get_8_DataGrid_GridLinesVisibility(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.GridLinesVisibility;
+        }
+        private void set_8_DataGrid_GridLinesVisibility(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.GridLinesVisibility = (global::CommunityToolkit.WinUI.UI.Controls.DataGridGridLinesVisibility)Value;
+        }
+        private object get_9_DataGrid_Columns(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.Columns;
+        }
+        private object get_10_DataGridColumn_ActualWidth(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            return that.ActualWidth;
+        }
+        private object get_11_DataGridColumn_CanUserReorder(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            return that.CanUserReorder;
+        }
+        private void set_11_DataGridColumn_CanUserReorder(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            that.CanUserReorder = (global::System.Boolean)Value;
+        }
+        private object get_12_DataGridColumn_CanUserResize(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            return that.CanUserResize;
+        }
+        private void set_12_DataGridColumn_CanUserResize(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            that.CanUserResize = (global::System.Boolean)Value;
+        }
+        private object get_13_DataGridColumn_CanUserSort(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            return that.CanUserSort;
+        }
+        private void set_13_DataGridColumn_CanUserSort(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            that.CanUserSort = (global::System.Boolean)Value;
+        }
+        private object get_14_DataGridColumn_CellStyle(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            return that.CellStyle;
+        }
+        private void set_14_DataGridColumn_CellStyle(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            that.CellStyle = (global::Microsoft.UI.Xaml.Style)Value;
+        }
+        private object get_15_DataGridColumn_ClipboardContentBinding(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            return that.ClipboardContentBinding;
+        }
+        private void set_15_DataGridColumn_ClipboardContentBinding(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            that.ClipboardContentBinding = (global::Microsoft.UI.Xaml.Data.Binding)Value;
+        }
+        private object get_16_DataGridColumn_DisplayIndex(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            return that.DisplayIndex;
+        }
+        private void set_16_DataGridColumn_DisplayIndex(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            that.DisplayIndex = (global::System.Int32)Value;
+        }
+        private object get_17_DataGridColumn_DragIndicatorStyle(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            return that.DragIndicatorStyle;
+        }
+        private void set_17_DataGridColumn_DragIndicatorStyle(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            that.DragIndicatorStyle = (global::Microsoft.UI.Xaml.Style)Value;
+        }
+        private object get_18_DataGridColumn_HeaderStyle(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            return that.HeaderStyle;
+        }
+        private void set_18_DataGridColumn_HeaderStyle(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            that.HeaderStyle = (global::Microsoft.UI.Xaml.Style)Value;
+        }
+        private object get_19_DataGridColumn_Header(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            return that.Header;
+        }
+        private void set_19_DataGridColumn_Header(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            that.Header = (global::System.Object)Value;
+        }
+        private object get_20_DataGridColumn_IsAutoGenerated(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            return that.IsAutoGenerated;
+        }
+        private object get_21_DataGridColumn_IsFrozen(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            return that.IsFrozen;
+        }
+        private object get_22_DataGridColumn_IsReadOnly(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            return that.IsReadOnly;
+        }
+        private void set_22_DataGridColumn_IsReadOnly(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            that.IsReadOnly = (global::System.Boolean)Value;
+        }
+        private object get_23_DataGridColumn_MaxWidth(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            return that.MaxWidth;
+        }
+        private void set_23_DataGridColumn_MaxWidth(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            that.MaxWidth = (global::System.Double)Value;
+        }
+        private object get_24_DataGridColumn_MinWidth(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            return that.MinWidth;
+        }
+        private void set_24_DataGridColumn_MinWidth(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            that.MinWidth = (global::System.Double)Value;
+        }
+        private object get_25_DataGridColumn_SortDirection(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            return that.SortDirection;
+        }
+        private void set_25_DataGridColumn_SortDirection(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            that.SortDirection = (global::System.Nullable<global::CommunityToolkit.WinUI.UI.Controls.DataGridSortDirection>)Value;
+        }
+        private object get_26_DataGridColumn_Tag(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            return that.Tag;
+        }
+        private void set_26_DataGridColumn_Tag(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            that.Tag = (global::System.Object)Value;
+        }
+        private object get_27_DataGridColumn_Visibility(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            return that.Visibility;
+        }
+        private void set_27_DataGridColumn_Visibility(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            that.Visibility = (global::Microsoft.UI.Xaml.Visibility)Value;
+        }
+        private object get_28_DataGridColumn_Width(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            return that.Width;
+        }
+        private void set_28_DataGridColumn_Width(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            that.Width = (global::CommunityToolkit.WinUI.UI.Controls.DataGridLength)Value;
+        }
+        private object get_29_DataGrid_AlternatingRowBackground(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.AlternatingRowBackground;
+        }
+        private void set_29_DataGrid_AlternatingRowBackground(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.AlternatingRowBackground = (global::Microsoft.UI.Xaml.Media.Brush)Value;
+        }
+        private object get_30_DataGrid_AlternatingRowForeground(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.AlternatingRowForeground;
+        }
+        private void set_30_DataGrid_AlternatingRowForeground(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.AlternatingRowForeground = (global::Microsoft.UI.Xaml.Media.Brush)Value;
+        }
+        private object get_31_DataGrid_AreRowDetailsFrozen(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.AreRowDetailsFrozen;
+        }
+        private void set_31_DataGrid_AreRowDetailsFrozen(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.AreRowDetailsFrozen = (global::System.Boolean)Value;
+        }
+        private object get_32_DataGrid_AreRowGroupHeadersFrozen(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.AreRowGroupHeadersFrozen;
+        }
+        private void set_32_DataGrid_AreRowGroupHeadersFrozen(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.AreRowGroupHeadersFrozen = (global::System.Boolean)Value;
+        }
+        private object get_33_DataGrid_CanUserReorderColumns(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.CanUserReorderColumns;
+        }
+        private void set_33_DataGrid_CanUserReorderColumns(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.CanUserReorderColumns = (global::System.Boolean)Value;
+        }
+        private object get_34_DataGrid_CanUserResizeColumns(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.CanUserResizeColumns;
+        }
+        private void set_34_DataGrid_CanUserResizeColumns(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.CanUserResizeColumns = (global::System.Boolean)Value;
+        }
+        private object get_35_DataGrid_CellStyle(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.CellStyle;
+        }
+        private void set_35_DataGrid_CellStyle(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.CellStyle = (global::Microsoft.UI.Xaml.Style)Value;
+        }
+        private object get_36_DataGrid_ClipboardCopyMode(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.ClipboardCopyMode;
+        }
+        private void set_36_DataGrid_ClipboardCopyMode(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.ClipboardCopyMode = (global::CommunityToolkit.WinUI.UI.Controls.DataGridClipboardCopyMode)Value;
+        }
+        private object get_37_DataGrid_ColumnHeaderHeight(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.ColumnHeaderHeight;
+        }
+        private void set_37_DataGrid_ColumnHeaderHeight(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.ColumnHeaderHeight = (global::System.Double)Value;
+        }
+        private object get_38_DataGrid_ColumnHeaderStyle(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.ColumnHeaderStyle;
+        }
+        private void set_38_DataGrid_ColumnHeaderStyle(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.ColumnHeaderStyle = (global::Microsoft.UI.Xaml.Style)Value;
+        }
+        private object get_39_DataGrid_ColumnWidth(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.ColumnWidth;
+        }
+        private void set_39_DataGrid_ColumnWidth(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.ColumnWidth = (global::CommunityToolkit.WinUI.UI.Controls.DataGridLength)Value;
+        }
+        private object get_40_DataGrid_DataFetchSize(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.DataFetchSize;
+        }
+        private void set_40_DataGrid_DataFetchSize(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.DataFetchSize = (global::System.Double)Value;
+        }
+        private object get_41_DataGrid_DragIndicatorStyle(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.DragIndicatorStyle;
+        }
+        private void set_41_DataGrid_DragIndicatorStyle(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.DragIndicatorStyle = (global::Microsoft.UI.Xaml.Style)Value;
+        }
+        private object get_42_DataGrid_DropLocationIndicatorStyle(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.DropLocationIndicatorStyle;
+        }
+        private void set_42_DataGrid_DropLocationIndicatorStyle(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.DropLocationIndicatorStyle = (global::Microsoft.UI.Xaml.Style)Value;
+        }
+        private object get_43_DataGrid_FrozenColumnCount(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.FrozenColumnCount;
+        }
+        private void set_43_DataGrid_FrozenColumnCount(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.FrozenColumnCount = (global::System.Int32)Value;
+        }
+        private object get_44_DataGrid_HorizontalGridLinesBrush(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.HorizontalGridLinesBrush;
+        }
+        private void set_44_DataGrid_HorizontalGridLinesBrush(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.HorizontalGridLinesBrush = (global::Microsoft.UI.Xaml.Media.Brush)Value;
+        }
+        private object get_45_DataGrid_HorizontalScrollBarVisibility(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.HorizontalScrollBarVisibility;
+        }
+        private void set_45_DataGrid_HorizontalScrollBarVisibility(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.HorizontalScrollBarVisibility = (global::Microsoft.UI.Xaml.Controls.ScrollBarVisibility)Value;
+        }
+        private object get_46_DataGrid_IsValid(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.IsValid;
+        }
+        private object get_47_DataGrid_IncrementalLoadingThreshold(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.IncrementalLoadingThreshold;
+        }
+        private void set_47_DataGrid_IncrementalLoadingThreshold(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.IncrementalLoadingThreshold = (global::System.Double)Value;
+        }
+        private object get_48_DataGrid_IncrementalLoadingTrigger(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.IncrementalLoadingTrigger;
+        }
+        private void set_48_DataGrid_IncrementalLoadingTrigger(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.IncrementalLoadingTrigger = (global::Microsoft.UI.Xaml.Controls.IncrementalLoadingTrigger)Value;
+        }
+        private object get_49_DataGrid_MaxColumnWidth(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.MaxColumnWidth;
+        }
+        private void set_49_DataGrid_MaxColumnWidth(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.MaxColumnWidth = (global::System.Double)Value;
+        }
+        private object get_50_DataGrid_MinColumnWidth(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.MinColumnWidth;
+        }
+        private void set_50_DataGrid_MinColumnWidth(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.MinColumnWidth = (global::System.Double)Value;
+        }
+        private object get_51_DataGrid_RowBackground(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.RowBackground;
+        }
+        private void set_51_DataGrid_RowBackground(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.RowBackground = (global::Microsoft.UI.Xaml.Media.Brush)Value;
+        }
+        private object get_52_DataGrid_RowDetailsTemplate(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.RowDetailsTemplate;
+        }
+        private void set_52_DataGrid_RowDetailsTemplate(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.RowDetailsTemplate = (global::Microsoft.UI.Xaml.DataTemplate)Value;
+        }
+        private object get_53_DataGrid_RowDetailsVisibilityMode(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.RowDetailsVisibilityMode;
+        }
+        private void set_53_DataGrid_RowDetailsVisibilityMode(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.RowDetailsVisibilityMode = (global::CommunityToolkit.WinUI.UI.Controls.DataGridRowDetailsVisibilityMode)Value;
+        }
+        private object get_54_DataGrid_RowForeground(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.RowForeground;
+        }
+        private void set_54_DataGrid_RowForeground(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.RowForeground = (global::Microsoft.UI.Xaml.Media.Brush)Value;
+        }
+        private object get_55_DataGrid_RowHeight(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.RowHeight;
+        }
+        private void set_55_DataGrid_RowHeight(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.RowHeight = (global::System.Double)Value;
+        }
+        private object get_56_DataGrid_RowHeaderWidth(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.RowHeaderWidth;
+        }
+        private void set_56_DataGrid_RowHeaderWidth(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.RowHeaderWidth = (global::System.Double)Value;
+        }
+        private object get_57_DataGrid_RowHeaderStyle(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.RowHeaderStyle;
+        }
+        private void set_57_DataGrid_RowHeaderStyle(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.RowHeaderStyle = (global::Microsoft.UI.Xaml.Style)Value;
+        }
+        private object get_58_DataGrid_RowStyle(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.RowStyle;
+        }
+        private void set_58_DataGrid_RowStyle(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.RowStyle = (global::Microsoft.UI.Xaml.Style)Value;
+        }
+        private object get_59_DataGrid_SelectedIndex(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.SelectedIndex;
+        }
+        private void set_59_DataGrid_SelectedIndex(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.SelectedIndex = (global::System.Int32)Value;
+        }
+        private object get_60_DataGrid_SelectedItem(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.SelectedItem;
+        }
+        private void set_60_DataGrid_SelectedItem(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.SelectedItem = (global::System.Object)Value;
+        }
+        private object get_61_DataGrid_VerticalGridLinesBrush(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.VerticalGridLinesBrush;
+        }
+        private void set_61_DataGrid_VerticalGridLinesBrush(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.VerticalGridLinesBrush = (global::Microsoft.UI.Xaml.Media.Brush)Value;
+        }
+        private object get_62_DataGrid_VerticalScrollBarVisibility(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.VerticalScrollBarVisibility;
+        }
+        private void set_62_DataGrid_VerticalScrollBarVisibility(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.VerticalScrollBarVisibility = (global::Microsoft.UI.Xaml.Controls.ScrollBarVisibility)Value;
+        }
+        private object get_63_DataGrid_CurrentColumn(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.CurrentColumn;
+        }
+        private void set_63_DataGrid_CurrentColumn(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.CurrentColumn = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)Value;
+        }
+        private object get_64_DataGrid_RowGroupHeaderPropertyNameAlternative(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.RowGroupHeaderPropertyNameAlternative;
+        }
+        private void set_64_DataGrid_RowGroupHeaderPropertyNameAlternative(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.RowGroupHeaderPropertyNameAlternative = (global::System.String)Value;
+        }
+        private object get_65_DataGrid_RowGroupHeaderStyles(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.RowGroupHeaderStyles;
+        }
+        private object get_66_DataGrid_SelectedItems(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.SelectedItems;
+        }
+        private object get_67_DataGridBoundColumn_Binding(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridBoundColumn)instance;
+            return that.Binding;
+        }
+        private void set_67_DataGridBoundColumn_Binding(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridBoundColumn)instance;
+            that.Binding = (global::Microsoft.UI.Xaml.Data.Binding)Value;
+        }
+        private object get_68_DataGridTextColumn_FontFamily(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridTextColumn)instance;
+            return that.FontFamily;
+        }
+        private void set_68_DataGridTextColumn_FontFamily(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridTextColumn)instance;
+            that.FontFamily = (global::Microsoft.UI.Xaml.Media.FontFamily)Value;
+        }
+        private object get_69_DataGridTextColumn_FontSize(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridTextColumn)instance;
+            return that.FontSize;
+        }
+        private void set_69_DataGridTextColumn_FontSize(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridTextColumn)instance;
+            that.FontSize = (global::System.Double)Value;
+        }
+        private object get_70_DataGridTextColumn_FontStyle(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridTextColumn)instance;
+            return that.FontStyle;
+        }
+        private void set_70_DataGridTextColumn_FontStyle(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridTextColumn)instance;
+            that.FontStyle = (global::Windows.UI.Text.FontStyle)Value;
+        }
+        private object get_71_DataGridTextColumn_FontWeight(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridTextColumn)instance;
+            return that.FontWeight;
+        }
+        private void set_71_DataGridTextColumn_FontWeight(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridTextColumn)instance;
+            that.FontWeight = (global::Windows.UI.Text.FontWeight)Value;
+        }
+        private object get_72_DataGridTextColumn_Foreground(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridTextColumn)instance;
+            return that.Foreground;
+        }
+        private void set_72_DataGridTextColumn_Foreground(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridTextColumn)instance;
+            that.Foreground = (global::Microsoft.UI.Xaml.Media.Brush)Value;
+        }
+        private object get_73_DataGridBoundColumn_ClipboardContentBinding(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridBoundColumn)instance;
+            return that.ClipboardContentBinding;
+        }
+        private void set_73_DataGridBoundColumn_ClipboardContentBinding(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridBoundColumn)instance;
+            that.ClipboardContentBinding = (global::Microsoft.UI.Xaml.Data.Binding)Value;
+        }
+        private object get_74_DataGridBoundColumn_EditingElementStyle(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridBoundColumn)instance;
+            return that.EditingElementStyle;
+        }
+        private void set_74_DataGridBoundColumn_EditingElementStyle(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridBoundColumn)instance;
+            that.EditingElementStyle = (global::Microsoft.UI.Xaml.Style)Value;
+        }
+        private object get_75_DataGridBoundColumn_ElementStyle(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridBoundColumn)instance;
+            return that.ElementStyle;
+        }
+        private void set_75_DataGridBoundColumn_ElementStyle(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridBoundColumn)instance;
+            that.ElementStyle = (global::Microsoft.UI.Xaml.Style)Value;
+        }
+        private object get_76_ContractorsPage_ViewModel(object instance)
+        {
+            var that = (global::WMSLite.App.Views.ContractorsPage)instance;
+            return that.ViewModel;
+        }
+        private object get_77_NavigationView_PaneDisplayMode(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.PaneDisplayMode;
         }
-        private void set_2_NavigationView_PaneDisplayMode(object instance, object Value)
+        private void set_77_NavigationView_PaneDisplayMode(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.PaneDisplayMode = (global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode)Value;
         }
-        private object get_3_NavigationView_IsBackButtonVisible(object instance)
+        private object get_78_NavigationView_IsBackButtonVisible(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.IsBackButtonVisible;
         }
-        private void set_3_NavigationView_IsBackButtonVisible(object instance, object Value)
+        private void set_78_NavigationView_IsBackButtonVisible(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.IsBackButtonVisible = (global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible)Value;
         }
-        private object get_4_NavigationView_IsSettingsVisible(object instance)
+        private object get_79_NavigationView_IsSettingsVisible(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.IsSettingsVisible;
         }
-        private void set_4_NavigationView_IsSettingsVisible(object instance, object Value)
+        private void set_79_NavigationView_IsSettingsVisible(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.IsSettingsVisible = (global::System.Boolean)Value;
         }
-        private object get_5_NavigationView_MenuItems(object instance)
+        private object get_80_NavigationView_MenuItems(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.MenuItems;
         }
-        private object get_6_NavigationView_AlwaysShowHeader(object instance)
+        private object get_81_NavigationView_AlwaysShowHeader(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.AlwaysShowHeader;
         }
-        private void set_6_NavigationView_AlwaysShowHeader(object instance, object Value)
+        private void set_81_NavigationView_AlwaysShowHeader(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.AlwaysShowHeader = (global::System.Boolean)Value;
         }
-        private object get_7_NavigationView_AutoSuggestBox(object instance)
+        private object get_82_NavigationView_AutoSuggestBox(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.AutoSuggestBox;
         }
-        private void set_7_NavigationView_AutoSuggestBox(object instance, object Value)
+        private void set_82_NavigationView_AutoSuggestBox(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.AutoSuggestBox = (global::Microsoft.UI.Xaml.Controls.AutoSuggestBox)Value;
         }
-        private object get_8_NavigationView_CompactModeThresholdWidth(object instance)
+        private object get_83_NavigationView_CompactModeThresholdWidth(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.CompactModeThresholdWidth;
         }
-        private void set_8_NavigationView_CompactModeThresholdWidth(object instance, object Value)
+        private void set_83_NavigationView_CompactModeThresholdWidth(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.CompactModeThresholdWidth = (global::System.Double)Value;
         }
-        private object get_9_NavigationView_CompactPaneLength(object instance)
+        private object get_84_NavigationView_CompactPaneLength(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.CompactPaneLength;
         }
-        private void set_9_NavigationView_CompactPaneLength(object instance, object Value)
+        private void set_84_NavigationView_CompactPaneLength(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.CompactPaneLength = (global::System.Double)Value;
         }
-        private object get_10_NavigationView_ContentOverlay(object instance)
+        private object get_85_NavigationView_ContentOverlay(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.ContentOverlay;
         }
-        private void set_10_NavigationView_ContentOverlay(object instance, object Value)
+        private void set_85_NavigationView_ContentOverlay(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.ContentOverlay = (global::Microsoft.UI.Xaml.UIElement)Value;
         }
-        private object get_11_NavigationView_DisplayMode(object instance)
+        private object get_86_NavigationView_DisplayMode(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.DisplayMode;
         }
-        private object get_12_NavigationView_ExpandedModeThresholdWidth(object instance)
+        private object get_87_NavigationView_ExpandedModeThresholdWidth(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.ExpandedModeThresholdWidth;
         }
-        private void set_12_NavigationView_ExpandedModeThresholdWidth(object instance, object Value)
+        private void set_87_NavigationView_ExpandedModeThresholdWidth(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.ExpandedModeThresholdWidth = (global::System.Double)Value;
         }
-        private object get_13_NavigationView_FooterMenuItems(object instance)
+        private object get_88_NavigationView_FooterMenuItems(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.FooterMenuItems;
         }
-        private object get_14_NavigationView_FooterMenuItemsSource(object instance)
+        private object get_89_NavigationView_FooterMenuItemsSource(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.FooterMenuItemsSource;
         }
-        private void set_14_NavigationView_FooterMenuItemsSource(object instance, object Value)
+        private void set_89_NavigationView_FooterMenuItemsSource(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.FooterMenuItemsSource = (global::System.Object)Value;
         }
-        private object get_15_NavigationView_Header(object instance)
+        private object get_90_NavigationView_Header(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.Header;
         }
-        private void set_15_NavigationView_Header(object instance, object Value)
+        private void set_90_NavigationView_Header(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.Header = (global::System.Object)Value;
         }
-        private object get_16_NavigationView_HeaderTemplate(object instance)
+        private object get_91_NavigationView_HeaderTemplate(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.HeaderTemplate;
         }
-        private void set_16_NavigationView_HeaderTemplate(object instance, object Value)
+        private void set_91_NavigationView_HeaderTemplate(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.HeaderTemplate = (global::Microsoft.UI.Xaml.DataTemplate)Value;
         }
-        private object get_17_NavigationView_IsBackEnabled(object instance)
+        private object get_92_NavigationView_IsBackEnabled(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.IsBackEnabled;
         }
-        private void set_17_NavigationView_IsBackEnabled(object instance, object Value)
+        private void set_92_NavigationView_IsBackEnabled(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.IsBackEnabled = (global::System.Boolean)Value;
         }
-        private object get_18_NavigationView_IsPaneOpen(object instance)
+        private object get_93_NavigationView_IsPaneOpen(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.IsPaneOpen;
         }
-        private void set_18_NavigationView_IsPaneOpen(object instance, object Value)
+        private void set_93_NavigationView_IsPaneOpen(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.IsPaneOpen = (global::System.Boolean)Value;
         }
-        private object get_19_NavigationView_IsPaneToggleButtonVisible(object instance)
+        private object get_94_NavigationView_IsPaneToggleButtonVisible(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.IsPaneToggleButtonVisible;
         }
-        private void set_19_NavigationView_IsPaneToggleButtonVisible(object instance, object Value)
+        private void set_94_NavigationView_IsPaneToggleButtonVisible(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.IsPaneToggleButtonVisible = (global::System.Boolean)Value;
         }
-        private object get_20_NavigationView_IsPaneVisible(object instance)
+        private object get_95_NavigationView_IsPaneVisible(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.IsPaneVisible;
         }
-        private void set_20_NavigationView_IsPaneVisible(object instance, object Value)
+        private void set_95_NavigationView_IsPaneVisible(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.IsPaneVisible = (global::System.Boolean)Value;
         }
-        private object get_21_NavigationView_IsTitleBarAutoPaddingEnabled(object instance)
+        private object get_96_NavigationView_IsTitleBarAutoPaddingEnabled(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.IsTitleBarAutoPaddingEnabled;
         }
-        private void set_21_NavigationView_IsTitleBarAutoPaddingEnabled(object instance, object Value)
+        private void set_96_NavigationView_IsTitleBarAutoPaddingEnabled(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.IsTitleBarAutoPaddingEnabled = (global::System.Boolean)Value;
         }
-        private object get_22_NavigationView_MenuItemContainerStyle(object instance)
+        private object get_97_NavigationView_MenuItemContainerStyle(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.MenuItemContainerStyle;
         }
-        private void set_22_NavigationView_MenuItemContainerStyle(object instance, object Value)
+        private void set_97_NavigationView_MenuItemContainerStyle(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.MenuItemContainerStyle = (global::Microsoft.UI.Xaml.Style)Value;
         }
-        private object get_23_NavigationView_MenuItemContainerStyleSelector(object instance)
+        private object get_98_NavigationView_MenuItemContainerStyleSelector(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.MenuItemContainerStyleSelector;
         }
-        private void set_23_NavigationView_MenuItemContainerStyleSelector(object instance, object Value)
+        private void set_98_NavigationView_MenuItemContainerStyleSelector(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.MenuItemContainerStyleSelector = (global::Microsoft.UI.Xaml.Controls.StyleSelector)Value;
         }
-        private object get_24_NavigationView_MenuItemTemplate(object instance)
+        private object get_99_NavigationView_MenuItemTemplate(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.MenuItemTemplate;
         }
-        private void set_24_NavigationView_MenuItemTemplate(object instance, object Value)
+        private void set_99_NavigationView_MenuItemTemplate(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.MenuItemTemplate = (global::Microsoft.UI.Xaml.DataTemplate)Value;
         }
-        private object get_25_NavigationView_MenuItemTemplateSelector(object instance)
+        private object get_100_NavigationView_MenuItemTemplateSelector(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.MenuItemTemplateSelector;
         }
-        private void set_25_NavigationView_MenuItemTemplateSelector(object instance, object Value)
+        private void set_100_NavigationView_MenuItemTemplateSelector(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.MenuItemTemplateSelector = (global::Microsoft.UI.Xaml.Controls.DataTemplateSelector)Value;
         }
-        private object get_26_NavigationView_MenuItemsSource(object instance)
+        private object get_101_NavigationView_MenuItemsSource(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.MenuItemsSource;
         }
-        private void set_26_NavigationView_MenuItemsSource(object instance, object Value)
+        private void set_101_NavigationView_MenuItemsSource(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.MenuItemsSource = (global::System.Object)Value;
         }
-        private object get_27_NavigationView_OpenPaneLength(object instance)
+        private object get_102_NavigationView_OpenPaneLength(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.OpenPaneLength;
         }
-        private void set_27_NavigationView_OpenPaneLength(object instance, object Value)
+        private void set_102_NavigationView_OpenPaneLength(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.OpenPaneLength = (global::System.Double)Value;
         }
-        private object get_28_NavigationView_OverflowLabelMode(object instance)
+        private object get_103_NavigationView_OverflowLabelMode(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.OverflowLabelMode;
         }
-        private void set_28_NavigationView_OverflowLabelMode(object instance, object Value)
+        private void set_103_NavigationView_OverflowLabelMode(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.OverflowLabelMode = (global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode)Value;
         }
-        private object get_29_NavigationView_PaneCustomContent(object instance)
+        private object get_104_NavigationView_PaneCustomContent(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.PaneCustomContent;
         }
-        private void set_29_NavigationView_PaneCustomContent(object instance, object Value)
+        private void set_104_NavigationView_PaneCustomContent(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.PaneCustomContent = (global::Microsoft.UI.Xaml.UIElement)Value;
         }
-        private object get_30_NavigationView_PaneFooter(object instance)
+        private object get_105_NavigationView_PaneFooter(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.PaneFooter;
         }
-        private void set_30_NavigationView_PaneFooter(object instance, object Value)
+        private void set_105_NavigationView_PaneFooter(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.PaneFooter = (global::Microsoft.UI.Xaml.UIElement)Value;
         }
-        private object get_31_NavigationView_PaneHeader(object instance)
+        private object get_106_NavigationView_PaneHeader(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.PaneHeader;
         }
-        private void set_31_NavigationView_PaneHeader(object instance, object Value)
+        private void set_106_NavigationView_PaneHeader(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.PaneHeader = (global::Microsoft.UI.Xaml.UIElement)Value;
         }
-        private object get_32_NavigationView_PaneTitle(object instance)
+        private object get_107_NavigationView_PaneTitle(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.PaneTitle;
         }
-        private void set_32_NavigationView_PaneTitle(object instance, object Value)
+        private void set_107_NavigationView_PaneTitle(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.PaneTitle = (global::System.String)Value;
         }
-        private object get_33_NavigationView_PaneToggleButtonStyle(object instance)
+        private object get_108_NavigationView_PaneToggleButtonStyle(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.PaneToggleButtonStyle;
         }
-        private void set_33_NavigationView_PaneToggleButtonStyle(object instance, object Value)
+        private void set_108_NavigationView_PaneToggleButtonStyle(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.PaneToggleButtonStyle = (global::Microsoft.UI.Xaml.Style)Value;
         }
-        private object get_34_NavigationView_SelectedItem(object instance)
+        private object get_109_NavigationView_SelectedItem(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.SelectedItem;
         }
-        private void set_34_NavigationView_SelectedItem(object instance, object Value)
+        private void set_109_NavigationView_SelectedItem(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.SelectedItem = (global::System.Object)Value;
         }
-        private object get_35_NavigationView_SelectionFollowsFocus(object instance)
+        private object get_110_NavigationView_SelectionFollowsFocus(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.SelectionFollowsFocus;
         }
-        private void set_35_NavigationView_SelectionFollowsFocus(object instance, object Value)
+        private void set_110_NavigationView_SelectionFollowsFocus(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.SelectionFollowsFocus = (global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus)Value;
         }
-        private object get_36_NavigationView_SettingsItem(object instance)
+        private object get_111_NavigationView_SettingsItem(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.SettingsItem;
         }
-        private object get_37_NavigationView_ShoulderNavigationEnabled(object instance)
+        private object get_112_NavigationView_ShoulderNavigationEnabled(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.ShoulderNavigationEnabled;
         }
-        private void set_37_NavigationView_ShoulderNavigationEnabled(object instance, object Value)
+        private void set_112_NavigationView_ShoulderNavigationEnabled(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.ShoulderNavigationEnabled = (global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled)Value;
         }
-        private object get_38_NavigationView_TemplateSettings(object instance)
+        private object get_113_NavigationView_TemplateSettings(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.TemplateSettings;
         }
-        private object get_39_NavigationViewItem_Icon(object instance)
+        private object get_114_NavigationViewItem_Icon(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             return that.Icon;
         }
-        private void set_39_NavigationViewItem_Icon(object instance, object Value)
+        private void set_114_NavigationViewItem_Icon(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             that.Icon = (global::Microsoft.UI.Xaml.Controls.IconElement)Value;
         }
-        private object get_40_NavigationViewItem_CompactPaneLength(object instance)
+        private object get_115_NavigationViewItem_CompactPaneLength(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             return that.CompactPaneLength;
         }
-        private object get_41_NavigationViewItem_HasUnrealizedChildren(object instance)
+        private object get_116_NavigationViewItem_HasUnrealizedChildren(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             return that.HasUnrealizedChildren;
         }
-        private void set_41_NavigationViewItem_HasUnrealizedChildren(object instance, object Value)
+        private void set_116_NavigationViewItem_HasUnrealizedChildren(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             that.HasUnrealizedChildren = (global::System.Boolean)Value;
         }
-        private object get_42_NavigationViewItem_InfoBadge(object instance)
+        private object get_117_NavigationViewItem_InfoBadge(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             return that.InfoBadge;
         }
-        private void set_42_NavigationViewItem_InfoBadge(object instance, object Value)
+        private void set_117_NavigationViewItem_InfoBadge(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             that.InfoBadge = (global::Microsoft.UI.Xaml.Controls.InfoBadge)Value;
         }
-        private object get_43_NavigationViewItem_IsChildSelected(object instance)
+        private object get_118_NavigationViewItem_IsChildSelected(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             return that.IsChildSelected;
         }
-        private void set_43_NavigationViewItem_IsChildSelected(object instance, object Value)
+        private void set_118_NavigationViewItem_IsChildSelected(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             that.IsChildSelected = (global::System.Boolean)Value;
         }
-        private object get_44_NavigationViewItem_IsExpanded(object instance)
+        private object get_119_NavigationViewItem_IsExpanded(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             return that.IsExpanded;
         }
-        private void set_44_NavigationViewItem_IsExpanded(object instance, object Value)
+        private void set_119_NavigationViewItem_IsExpanded(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             that.IsExpanded = (global::System.Boolean)Value;
         }
-        private object get_45_NavigationViewItem_MenuItems(object instance)
+        private object get_120_NavigationViewItem_MenuItems(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             return that.MenuItems;
         }
-        private object get_46_NavigationViewItem_MenuItemsSource(object instance)
+        private object get_121_NavigationViewItem_MenuItemsSource(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             return that.MenuItemsSource;
         }
-        private void set_46_NavigationViewItem_MenuItemsSource(object instance, object Value)
+        private void set_121_NavigationViewItem_MenuItemsSource(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             that.MenuItemsSource = (global::System.Object)Value;
         }
-        private object get_47_NavigationViewItem_SelectsOnInvoked(object instance)
+        private object get_122_NavigationViewItem_SelectsOnInvoked(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             return that.SelectsOnInvoked;
         }
-        private void set_47_NavigationViewItem_SelectsOnInvoked(object instance, object Value)
+        private void set_122_NavigationViewItem_SelectsOnInvoked(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             that.SelectsOnInvoked = (global::System.Boolean)Value;
         }
-        private object get_48_NavigationViewItemBase_IsSelected(object instance)
+        private object get_123_NavigationViewItemBase_IsSelected(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItemBase)instance;
             return that.IsSelected;
         }
-        private void set_48_NavigationViewItemBase_IsSelected(object instance, object Value)
+        private void set_123_NavigationViewItemBase_IsSelected(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItemBase)instance;
             that.IsSelected = (global::System.Boolean)Value;
         }
-        private object get_49_TreeViewNode_Children(object instance)
+        private object get_124_TreeViewNode_Children(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Children;
         }
-        private object get_50_TreeViewNode_Content(object instance)
+        private object get_125_TreeViewNode_Content(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Content;
         }
-        private void set_50_TreeViewNode_Content(object instance, object Value)
+        private void set_125_TreeViewNode_Content(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.Content = (global::System.Object)Value;
         }
-        private object get_51_TreeViewNode_Depth(object instance)
+        private object get_126_TreeViewNode_Depth(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Depth;
         }
-        private object get_52_TreeViewNode_HasChildren(object instance)
+        private object get_127_TreeViewNode_HasChildren(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.HasChildren;
         }
-        private object get_53_TreeViewNode_HasUnrealizedChildren(object instance)
+        private object get_128_TreeViewNode_HasUnrealizedChildren(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.HasUnrealizedChildren;
         }
-        private void set_53_TreeViewNode_HasUnrealizedChildren(object instance, object Value)
+        private void set_128_TreeViewNode_HasUnrealizedChildren(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.HasUnrealizedChildren = (global::System.Boolean)Value;
         }
-        private object get_54_TreeViewNode_IsExpanded(object instance)
+        private object get_129_TreeViewNode_IsExpanded(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.IsExpanded;
         }
-        private void set_54_TreeViewNode_IsExpanded(object instance, object Value)
+        private void set_129_TreeViewNode_IsExpanded(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.IsExpanded = (global::System.Boolean)Value;
         }
-        private object get_55_TreeViewNode_Parent(object instance)
+        private object get_130_TreeViewNode_Parent(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Parent;
@@ -1334,379 +2427,871 @@ namespace WMSLite.App.WMSLite_App_XamlTypeInfo
                 xamlMember.Getter = get_1_ContractorDialog_Contractor;
                 xamlMember.Setter = set_1_ContractorDialog_Contractor;
                 break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGrid.ItemsSource":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "ItemsSource", "System.Collections.IEnumerable");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_2_DataGrid_ItemsSource;
+                xamlMember.Setter = set_2_DataGrid_ItemsSource;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGrid.AutoGenerateColumns":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "AutoGenerateColumns", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_3_DataGrid_AutoGenerateColumns;
+                xamlMember.Setter = set_3_DataGrid_AutoGenerateColumns;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGrid.CanUserSortColumns":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "CanUserSortColumns", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_4_DataGrid_CanUserSortColumns;
+                xamlMember.Setter = set_4_DataGrid_CanUserSortColumns;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGrid.IsReadOnly":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "IsReadOnly", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_5_DataGrid_IsReadOnly;
+                xamlMember.Setter = set_5_DataGrid_IsReadOnly;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGrid.SelectionMode":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "SelectionMode", "CommunityToolkit.WinUI.UI.Controls.DataGridSelectionMode");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_6_DataGrid_SelectionMode;
+                xamlMember.Setter = set_6_DataGrid_SelectionMode;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGrid.HeadersVisibility":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "HeadersVisibility", "CommunityToolkit.WinUI.UI.Controls.DataGridHeadersVisibility");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_7_DataGrid_HeadersVisibility;
+                xamlMember.Setter = set_7_DataGrid_HeadersVisibility;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGrid.GridLinesVisibility":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "GridLinesVisibility", "CommunityToolkit.WinUI.UI.Controls.DataGridGridLinesVisibility");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_8_DataGrid_GridLinesVisibility;
+                xamlMember.Setter = set_8_DataGrid_GridLinesVisibility;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGrid.Columns":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "Columns", "System.Collections.ObjectModel.ObservableCollection`1<CommunityToolkit.WinUI.UI.Controls.DataGridColumn>");
+                xamlMember.Getter = get_9_DataGrid_Columns;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.ActualWidth":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "ActualWidth", "Double");
+                xamlMember.Getter = get_10_DataGridColumn_ActualWidth;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.CanUserReorder":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "CanUserReorder", "Boolean");
+                xamlMember.Getter = get_11_DataGridColumn_CanUserReorder;
+                xamlMember.Setter = set_11_DataGridColumn_CanUserReorder;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.CanUserResize":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "CanUserResize", "Boolean");
+                xamlMember.Getter = get_12_DataGridColumn_CanUserResize;
+                xamlMember.Setter = set_12_DataGridColumn_CanUserResize;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.CanUserSort":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "CanUserSort", "Boolean");
+                xamlMember.Getter = get_13_DataGridColumn_CanUserSort;
+                xamlMember.Setter = set_13_DataGridColumn_CanUserSort;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.CellStyle":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "CellStyle", "Microsoft.UI.Xaml.Style");
+                xamlMember.Getter = get_14_DataGridColumn_CellStyle;
+                xamlMember.Setter = set_14_DataGridColumn_CellStyle;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.ClipboardContentBinding":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "ClipboardContentBinding", "Microsoft.UI.Xaml.Data.Binding");
+                xamlMember.Getter = get_15_DataGridColumn_ClipboardContentBinding;
+                xamlMember.Setter = set_15_DataGridColumn_ClipboardContentBinding;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.DisplayIndex":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "DisplayIndex", "Int32");
+                xamlMember.Getter = get_16_DataGridColumn_DisplayIndex;
+                xamlMember.Setter = set_16_DataGridColumn_DisplayIndex;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.DragIndicatorStyle":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "DragIndicatorStyle", "Microsoft.UI.Xaml.Style");
+                xamlMember.Getter = get_17_DataGridColumn_DragIndicatorStyle;
+                xamlMember.Setter = set_17_DataGridColumn_DragIndicatorStyle;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.HeaderStyle":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "HeaderStyle", "Microsoft.UI.Xaml.Style");
+                xamlMember.Getter = get_18_DataGridColumn_HeaderStyle;
+                xamlMember.Setter = set_18_DataGridColumn_HeaderStyle;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.Header":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "Header", "Object");
+                xamlMember.Getter = get_19_DataGridColumn_Header;
+                xamlMember.Setter = set_19_DataGridColumn_Header;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.IsAutoGenerated":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "IsAutoGenerated", "Boolean");
+                xamlMember.Getter = get_20_DataGridColumn_IsAutoGenerated;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.IsFrozen":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "IsFrozen", "Boolean");
+                xamlMember.Getter = get_21_DataGridColumn_IsFrozen;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.IsReadOnly":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "IsReadOnly", "Boolean");
+                xamlMember.Getter = get_22_DataGridColumn_IsReadOnly;
+                xamlMember.Setter = set_22_DataGridColumn_IsReadOnly;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.MaxWidth":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "MaxWidth", "Double");
+                xamlMember.Getter = get_23_DataGridColumn_MaxWidth;
+                xamlMember.Setter = set_23_DataGridColumn_MaxWidth;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.MinWidth":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "MinWidth", "Double");
+                xamlMember.Getter = get_24_DataGridColumn_MinWidth;
+                xamlMember.Setter = set_24_DataGridColumn_MinWidth;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.SortDirection":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "SortDirection", "System.Nullable`1<CommunityToolkit.WinUI.UI.Controls.DataGridSortDirection>");
+                xamlMember.Getter = get_25_DataGridColumn_SortDirection;
+                xamlMember.Setter = set_25_DataGridColumn_SortDirection;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.Tag":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "Tag", "Object");
+                xamlMember.Getter = get_26_DataGridColumn_Tag;
+                xamlMember.Setter = set_26_DataGridColumn_Tag;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.Visibility":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "Visibility", "Microsoft.UI.Xaml.Visibility");
+                xamlMember.Getter = get_27_DataGridColumn_Visibility;
+                xamlMember.Setter = set_27_DataGridColumn_Visibility;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.Width":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "Width", "CommunityToolkit.WinUI.UI.Controls.DataGridLength");
+                xamlMember.Getter = get_28_DataGridColumn_Width;
+                xamlMember.Setter = set_28_DataGridColumn_Width;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGrid.AlternatingRowBackground":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "AlternatingRowBackground", "Microsoft.UI.Xaml.Media.Brush");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_29_DataGrid_AlternatingRowBackground;
+                xamlMember.Setter = set_29_DataGrid_AlternatingRowBackground;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGrid.AlternatingRowForeground":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "AlternatingRowForeground", "Microsoft.UI.Xaml.Media.Brush");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_30_DataGrid_AlternatingRowForeground;
+                xamlMember.Setter = set_30_DataGrid_AlternatingRowForeground;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGrid.AreRowDetailsFrozen":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "AreRowDetailsFrozen", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_31_DataGrid_AreRowDetailsFrozen;
+                xamlMember.Setter = set_31_DataGrid_AreRowDetailsFrozen;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGrid.AreRowGroupHeadersFrozen":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "AreRowGroupHeadersFrozen", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_32_DataGrid_AreRowGroupHeadersFrozen;
+                xamlMember.Setter = set_32_DataGrid_AreRowGroupHeadersFrozen;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGrid.CanUserReorderColumns":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "CanUserReorderColumns", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_33_DataGrid_CanUserReorderColumns;
+                xamlMember.Setter = set_33_DataGrid_CanUserReorderColumns;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGrid.CanUserResizeColumns":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "CanUserResizeColumns", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_34_DataGrid_CanUserResizeColumns;
+                xamlMember.Setter = set_34_DataGrid_CanUserResizeColumns;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGrid.CellStyle":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "CellStyle", "Microsoft.UI.Xaml.Style");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_35_DataGrid_CellStyle;
+                xamlMember.Setter = set_35_DataGrid_CellStyle;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGrid.ClipboardCopyMode":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "ClipboardCopyMode", "CommunityToolkit.WinUI.UI.Controls.DataGridClipboardCopyMode");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_36_DataGrid_ClipboardCopyMode;
+                xamlMember.Setter = set_36_DataGrid_ClipboardCopyMode;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGrid.ColumnHeaderHeight":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "ColumnHeaderHeight", "Double");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_37_DataGrid_ColumnHeaderHeight;
+                xamlMember.Setter = set_37_DataGrid_ColumnHeaderHeight;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGrid.ColumnHeaderStyle":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "ColumnHeaderStyle", "Microsoft.UI.Xaml.Style");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_38_DataGrid_ColumnHeaderStyle;
+                xamlMember.Setter = set_38_DataGrid_ColumnHeaderStyle;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGrid.ColumnWidth":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "ColumnWidth", "CommunityToolkit.WinUI.UI.Controls.DataGridLength");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_39_DataGrid_ColumnWidth;
+                xamlMember.Setter = set_39_DataGrid_ColumnWidth;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGrid.DataFetchSize":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "DataFetchSize", "Double");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_40_DataGrid_DataFetchSize;
+                xamlMember.Setter = set_40_DataGrid_DataFetchSize;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGrid.DragIndicatorStyle":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "DragIndicatorStyle", "Microsoft.UI.Xaml.Style");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_41_DataGrid_DragIndicatorStyle;
+                xamlMember.Setter = set_41_DataGrid_DragIndicatorStyle;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGrid.DropLocationIndicatorStyle":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "DropLocationIndicatorStyle", "Microsoft.UI.Xaml.Style");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_42_DataGrid_DropLocationIndicatorStyle;
+                xamlMember.Setter = set_42_DataGrid_DropLocationIndicatorStyle;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGrid.FrozenColumnCount":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "FrozenColumnCount", "Int32");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_43_DataGrid_FrozenColumnCount;
+                xamlMember.Setter = set_43_DataGrid_FrozenColumnCount;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGrid.HorizontalGridLinesBrush":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "HorizontalGridLinesBrush", "Microsoft.UI.Xaml.Media.Brush");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_44_DataGrid_HorizontalGridLinesBrush;
+                xamlMember.Setter = set_44_DataGrid_HorizontalGridLinesBrush;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGrid.HorizontalScrollBarVisibility":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "HorizontalScrollBarVisibility", "Microsoft.UI.Xaml.Controls.ScrollBarVisibility");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_45_DataGrid_HorizontalScrollBarVisibility;
+                xamlMember.Setter = set_45_DataGrid_HorizontalScrollBarVisibility;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGrid.IsValid":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "IsValid", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_46_DataGrid_IsValid;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGrid.IncrementalLoadingThreshold":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "IncrementalLoadingThreshold", "Double");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_47_DataGrid_IncrementalLoadingThreshold;
+                xamlMember.Setter = set_47_DataGrid_IncrementalLoadingThreshold;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGrid.IncrementalLoadingTrigger":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "IncrementalLoadingTrigger", "Microsoft.UI.Xaml.Controls.IncrementalLoadingTrigger");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_48_DataGrid_IncrementalLoadingTrigger;
+                xamlMember.Setter = set_48_DataGrid_IncrementalLoadingTrigger;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGrid.MaxColumnWidth":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "MaxColumnWidth", "Double");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_49_DataGrid_MaxColumnWidth;
+                xamlMember.Setter = set_49_DataGrid_MaxColumnWidth;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGrid.MinColumnWidth":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "MinColumnWidth", "Double");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_50_DataGrid_MinColumnWidth;
+                xamlMember.Setter = set_50_DataGrid_MinColumnWidth;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGrid.RowBackground":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "RowBackground", "Microsoft.UI.Xaml.Media.Brush");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_51_DataGrid_RowBackground;
+                xamlMember.Setter = set_51_DataGrid_RowBackground;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGrid.RowDetailsTemplate":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "RowDetailsTemplate", "Microsoft.UI.Xaml.DataTemplate");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_52_DataGrid_RowDetailsTemplate;
+                xamlMember.Setter = set_52_DataGrid_RowDetailsTemplate;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGrid.RowDetailsVisibilityMode":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "RowDetailsVisibilityMode", "CommunityToolkit.WinUI.UI.Controls.DataGridRowDetailsVisibilityMode");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_53_DataGrid_RowDetailsVisibilityMode;
+                xamlMember.Setter = set_53_DataGrid_RowDetailsVisibilityMode;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGrid.RowForeground":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "RowForeground", "Microsoft.UI.Xaml.Media.Brush");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_54_DataGrid_RowForeground;
+                xamlMember.Setter = set_54_DataGrid_RowForeground;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGrid.RowHeight":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "RowHeight", "Double");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_55_DataGrid_RowHeight;
+                xamlMember.Setter = set_55_DataGrid_RowHeight;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGrid.RowHeaderWidth":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "RowHeaderWidth", "Double");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_56_DataGrid_RowHeaderWidth;
+                xamlMember.Setter = set_56_DataGrid_RowHeaderWidth;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGrid.RowHeaderStyle":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "RowHeaderStyle", "Microsoft.UI.Xaml.Style");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_57_DataGrid_RowHeaderStyle;
+                xamlMember.Setter = set_57_DataGrid_RowHeaderStyle;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGrid.RowStyle":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "RowStyle", "Microsoft.UI.Xaml.Style");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_58_DataGrid_RowStyle;
+                xamlMember.Setter = set_58_DataGrid_RowStyle;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGrid.SelectedIndex":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "SelectedIndex", "Int32");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_59_DataGrid_SelectedIndex;
+                xamlMember.Setter = set_59_DataGrid_SelectedIndex;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGrid.SelectedItem":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "SelectedItem", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_60_DataGrid_SelectedItem;
+                xamlMember.Setter = set_60_DataGrid_SelectedItem;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGrid.VerticalGridLinesBrush":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "VerticalGridLinesBrush", "Microsoft.UI.Xaml.Media.Brush");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_61_DataGrid_VerticalGridLinesBrush;
+                xamlMember.Setter = set_61_DataGrid_VerticalGridLinesBrush;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGrid.VerticalScrollBarVisibility":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "VerticalScrollBarVisibility", "Microsoft.UI.Xaml.Controls.ScrollBarVisibility");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_62_DataGrid_VerticalScrollBarVisibility;
+                xamlMember.Setter = set_62_DataGrid_VerticalScrollBarVisibility;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGrid.CurrentColumn":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "CurrentColumn", "CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
+                xamlMember.Getter = get_63_DataGrid_CurrentColumn;
+                xamlMember.Setter = set_63_DataGrid_CurrentColumn;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGrid.RowGroupHeaderPropertyNameAlternative":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "RowGroupHeaderPropertyNameAlternative", "String");
+                xamlMember.Getter = get_64_DataGrid_RowGroupHeaderPropertyNameAlternative;
+                xamlMember.Setter = set_64_DataGrid_RowGroupHeaderPropertyNameAlternative;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGrid.RowGroupHeaderStyles":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "RowGroupHeaderStyles", "System.Collections.ObjectModel.ObservableCollection`1<Microsoft.UI.Xaml.Style>");
+                xamlMember.Getter = get_65_DataGrid_RowGroupHeaderStyles;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGrid.SelectedItems":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "SelectedItems", "System.Collections.IList");
+                xamlMember.Getter = get_66_DataGrid_SelectedItems;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGridBoundColumn.Binding":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridBoundColumn");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "Binding", "Microsoft.UI.Xaml.Data.Binding");
+                xamlMember.Getter = get_67_DataGridBoundColumn_Binding;
+                xamlMember.Setter = set_67_DataGridBoundColumn_Binding;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGridTextColumn.FontFamily":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridTextColumn");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "FontFamily", "Microsoft.UI.Xaml.Media.FontFamily");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_68_DataGridTextColumn_FontFamily;
+                xamlMember.Setter = set_68_DataGridTextColumn_FontFamily;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGridTextColumn.FontSize":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridTextColumn");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "FontSize", "Double");
+                xamlMember.Getter = get_69_DataGridTextColumn_FontSize;
+                xamlMember.Setter = set_69_DataGridTextColumn_FontSize;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGridTextColumn.FontStyle":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridTextColumn");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "FontStyle", "Windows.UI.Text.FontStyle");
+                xamlMember.Getter = get_70_DataGridTextColumn_FontStyle;
+                xamlMember.Setter = set_70_DataGridTextColumn_FontStyle;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGridTextColumn.FontWeight":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridTextColumn");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "FontWeight", "Windows.UI.Text.FontWeight");
+                xamlMember.Getter = get_71_DataGridTextColumn_FontWeight;
+                xamlMember.Setter = set_71_DataGridTextColumn_FontWeight;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGridTextColumn.Foreground":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridTextColumn");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "Foreground", "Microsoft.UI.Xaml.Media.Brush");
+                xamlMember.Getter = get_72_DataGridTextColumn_Foreground;
+                xamlMember.Setter = set_72_DataGridTextColumn_Foreground;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGridBoundColumn.ClipboardContentBinding":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridBoundColumn");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "ClipboardContentBinding", "Microsoft.UI.Xaml.Data.Binding");
+                xamlMember.Getter = get_73_DataGridBoundColumn_ClipboardContentBinding;
+                xamlMember.Setter = set_73_DataGridBoundColumn_ClipboardContentBinding;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGridBoundColumn.EditingElementStyle":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridBoundColumn");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "EditingElementStyle", "Microsoft.UI.Xaml.Style");
+                xamlMember.Getter = get_74_DataGridBoundColumn_EditingElementStyle;
+                xamlMember.Setter = set_74_DataGridBoundColumn_EditingElementStyle;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGridBoundColumn.ElementStyle":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridBoundColumn");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "ElementStyle", "Microsoft.UI.Xaml.Style");
+                xamlMember.Getter = get_75_DataGridBoundColumn_ElementStyle;
+                xamlMember.Setter = set_75_DataGridBoundColumn_ElementStyle;
+                break;
+            case "WMSLite.App.Views.ContractorsPage.ViewModel":
+                userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WMSLite.App.Views.ContractorsPage");
+                xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "ViewModel", "WMSLite.App.ViewModels.ContractorsViewModel");
+                xamlMember.Getter = get_76_ContractorsPage_ViewModel;
+                xamlMember.SetIsReadOnly();
+                break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.PaneDisplayMode":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "PaneDisplayMode", "Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_2_NavigationView_PaneDisplayMode;
-                xamlMember.Setter = set_2_NavigationView_PaneDisplayMode;
+                xamlMember.Getter = get_77_NavigationView_PaneDisplayMode;
+                xamlMember.Setter = set_77_NavigationView_PaneDisplayMode;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.IsBackButtonVisible":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "IsBackButtonVisible", "Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_3_NavigationView_IsBackButtonVisible;
-                xamlMember.Setter = set_3_NavigationView_IsBackButtonVisible;
+                xamlMember.Getter = get_78_NavigationView_IsBackButtonVisible;
+                xamlMember.Setter = set_78_NavigationView_IsBackButtonVisible;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.IsSettingsVisible":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "IsSettingsVisible", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_4_NavigationView_IsSettingsVisible;
-                xamlMember.Setter = set_4_NavigationView_IsSettingsVisible;
+                xamlMember.Getter = get_79_NavigationView_IsSettingsVisible;
+                xamlMember.Setter = set_79_NavigationView_IsSettingsVisible;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.MenuItems":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "MenuItems", "System.Collections.Generic.IList`1<Object>");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_5_NavigationView_MenuItems;
+                xamlMember.Getter = get_80_NavigationView_MenuItems;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.AlwaysShowHeader":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "AlwaysShowHeader", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_6_NavigationView_AlwaysShowHeader;
-                xamlMember.Setter = set_6_NavigationView_AlwaysShowHeader;
+                xamlMember.Getter = get_81_NavigationView_AlwaysShowHeader;
+                xamlMember.Setter = set_81_NavigationView_AlwaysShowHeader;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.AutoSuggestBox":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "AutoSuggestBox", "Microsoft.UI.Xaml.Controls.AutoSuggestBox");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_7_NavigationView_AutoSuggestBox;
-                xamlMember.Setter = set_7_NavigationView_AutoSuggestBox;
+                xamlMember.Getter = get_82_NavigationView_AutoSuggestBox;
+                xamlMember.Setter = set_82_NavigationView_AutoSuggestBox;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.CompactModeThresholdWidth":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "CompactModeThresholdWidth", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_8_NavigationView_CompactModeThresholdWidth;
-                xamlMember.Setter = set_8_NavigationView_CompactModeThresholdWidth;
+                xamlMember.Getter = get_83_NavigationView_CompactModeThresholdWidth;
+                xamlMember.Setter = set_83_NavigationView_CompactModeThresholdWidth;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.CompactPaneLength":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "CompactPaneLength", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_9_NavigationView_CompactPaneLength;
-                xamlMember.Setter = set_9_NavigationView_CompactPaneLength;
+                xamlMember.Getter = get_84_NavigationView_CompactPaneLength;
+                xamlMember.Setter = set_84_NavigationView_CompactPaneLength;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.ContentOverlay":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "ContentOverlay", "Microsoft.UI.Xaml.UIElement");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_10_NavigationView_ContentOverlay;
-                xamlMember.Setter = set_10_NavigationView_ContentOverlay;
+                xamlMember.Getter = get_85_NavigationView_ContentOverlay;
+                xamlMember.Setter = set_85_NavigationView_ContentOverlay;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.DisplayMode":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "DisplayMode", "Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_11_NavigationView_DisplayMode;
+                xamlMember.Getter = get_86_NavigationView_DisplayMode;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.ExpandedModeThresholdWidth":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "ExpandedModeThresholdWidth", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_12_NavigationView_ExpandedModeThresholdWidth;
-                xamlMember.Setter = set_12_NavigationView_ExpandedModeThresholdWidth;
+                xamlMember.Getter = get_87_NavigationView_ExpandedModeThresholdWidth;
+                xamlMember.Setter = set_87_NavigationView_ExpandedModeThresholdWidth;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.FooterMenuItems":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "FooterMenuItems", "System.Collections.Generic.IList`1<Object>");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_13_NavigationView_FooterMenuItems;
+                xamlMember.Getter = get_88_NavigationView_FooterMenuItems;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.FooterMenuItemsSource":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "FooterMenuItemsSource", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_14_NavigationView_FooterMenuItemsSource;
-                xamlMember.Setter = set_14_NavigationView_FooterMenuItemsSource;
+                xamlMember.Getter = get_89_NavigationView_FooterMenuItemsSource;
+                xamlMember.Setter = set_89_NavigationView_FooterMenuItemsSource;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.Header":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "Header", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_15_NavigationView_Header;
-                xamlMember.Setter = set_15_NavigationView_Header;
+                xamlMember.Getter = get_90_NavigationView_Header;
+                xamlMember.Setter = set_90_NavigationView_Header;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.HeaderTemplate":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "HeaderTemplate", "Microsoft.UI.Xaml.DataTemplate");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_16_NavigationView_HeaderTemplate;
-                xamlMember.Setter = set_16_NavigationView_HeaderTemplate;
+                xamlMember.Getter = get_91_NavigationView_HeaderTemplate;
+                xamlMember.Setter = set_91_NavigationView_HeaderTemplate;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.IsBackEnabled":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "IsBackEnabled", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_17_NavigationView_IsBackEnabled;
-                xamlMember.Setter = set_17_NavigationView_IsBackEnabled;
+                xamlMember.Getter = get_92_NavigationView_IsBackEnabled;
+                xamlMember.Setter = set_92_NavigationView_IsBackEnabled;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.IsPaneOpen":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "IsPaneOpen", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_18_NavigationView_IsPaneOpen;
-                xamlMember.Setter = set_18_NavigationView_IsPaneOpen;
+                xamlMember.Getter = get_93_NavigationView_IsPaneOpen;
+                xamlMember.Setter = set_93_NavigationView_IsPaneOpen;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.IsPaneToggleButtonVisible":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "IsPaneToggleButtonVisible", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_19_NavigationView_IsPaneToggleButtonVisible;
-                xamlMember.Setter = set_19_NavigationView_IsPaneToggleButtonVisible;
+                xamlMember.Getter = get_94_NavigationView_IsPaneToggleButtonVisible;
+                xamlMember.Setter = set_94_NavigationView_IsPaneToggleButtonVisible;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.IsPaneVisible":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "IsPaneVisible", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_20_NavigationView_IsPaneVisible;
-                xamlMember.Setter = set_20_NavigationView_IsPaneVisible;
+                xamlMember.Getter = get_95_NavigationView_IsPaneVisible;
+                xamlMember.Setter = set_95_NavigationView_IsPaneVisible;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.IsTitleBarAutoPaddingEnabled":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "IsTitleBarAutoPaddingEnabled", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_21_NavigationView_IsTitleBarAutoPaddingEnabled;
-                xamlMember.Setter = set_21_NavigationView_IsTitleBarAutoPaddingEnabled;
+                xamlMember.Getter = get_96_NavigationView_IsTitleBarAutoPaddingEnabled;
+                xamlMember.Setter = set_96_NavigationView_IsTitleBarAutoPaddingEnabled;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.MenuItemContainerStyle":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "MenuItemContainerStyle", "Microsoft.UI.Xaml.Style");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_22_NavigationView_MenuItemContainerStyle;
-                xamlMember.Setter = set_22_NavigationView_MenuItemContainerStyle;
+                xamlMember.Getter = get_97_NavigationView_MenuItemContainerStyle;
+                xamlMember.Setter = set_97_NavigationView_MenuItemContainerStyle;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.MenuItemContainerStyleSelector":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "MenuItemContainerStyleSelector", "Microsoft.UI.Xaml.Controls.StyleSelector");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_23_NavigationView_MenuItemContainerStyleSelector;
-                xamlMember.Setter = set_23_NavigationView_MenuItemContainerStyleSelector;
+                xamlMember.Getter = get_98_NavigationView_MenuItemContainerStyleSelector;
+                xamlMember.Setter = set_98_NavigationView_MenuItemContainerStyleSelector;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.MenuItemTemplate":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "MenuItemTemplate", "Microsoft.UI.Xaml.DataTemplate");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_24_NavigationView_MenuItemTemplate;
-                xamlMember.Setter = set_24_NavigationView_MenuItemTemplate;
+                xamlMember.Getter = get_99_NavigationView_MenuItemTemplate;
+                xamlMember.Setter = set_99_NavigationView_MenuItemTemplate;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.MenuItemTemplateSelector":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "MenuItemTemplateSelector", "Microsoft.UI.Xaml.Controls.DataTemplateSelector");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_25_NavigationView_MenuItemTemplateSelector;
-                xamlMember.Setter = set_25_NavigationView_MenuItemTemplateSelector;
+                xamlMember.Getter = get_100_NavigationView_MenuItemTemplateSelector;
+                xamlMember.Setter = set_100_NavigationView_MenuItemTemplateSelector;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.MenuItemsSource":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "MenuItemsSource", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_26_NavigationView_MenuItemsSource;
-                xamlMember.Setter = set_26_NavigationView_MenuItemsSource;
+                xamlMember.Getter = get_101_NavigationView_MenuItemsSource;
+                xamlMember.Setter = set_101_NavigationView_MenuItemsSource;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.OpenPaneLength":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "OpenPaneLength", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_27_NavigationView_OpenPaneLength;
-                xamlMember.Setter = set_27_NavigationView_OpenPaneLength;
+                xamlMember.Getter = get_102_NavigationView_OpenPaneLength;
+                xamlMember.Setter = set_102_NavigationView_OpenPaneLength;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.OverflowLabelMode":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "OverflowLabelMode", "Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_28_NavigationView_OverflowLabelMode;
-                xamlMember.Setter = set_28_NavigationView_OverflowLabelMode;
+                xamlMember.Getter = get_103_NavigationView_OverflowLabelMode;
+                xamlMember.Setter = set_103_NavigationView_OverflowLabelMode;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.PaneCustomContent":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "PaneCustomContent", "Microsoft.UI.Xaml.UIElement");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_29_NavigationView_PaneCustomContent;
-                xamlMember.Setter = set_29_NavigationView_PaneCustomContent;
+                xamlMember.Getter = get_104_NavigationView_PaneCustomContent;
+                xamlMember.Setter = set_104_NavigationView_PaneCustomContent;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.PaneFooter":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "PaneFooter", "Microsoft.UI.Xaml.UIElement");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_30_NavigationView_PaneFooter;
-                xamlMember.Setter = set_30_NavigationView_PaneFooter;
+                xamlMember.Getter = get_105_NavigationView_PaneFooter;
+                xamlMember.Setter = set_105_NavigationView_PaneFooter;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.PaneHeader":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "PaneHeader", "Microsoft.UI.Xaml.UIElement");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_31_NavigationView_PaneHeader;
-                xamlMember.Setter = set_31_NavigationView_PaneHeader;
+                xamlMember.Getter = get_106_NavigationView_PaneHeader;
+                xamlMember.Setter = set_106_NavigationView_PaneHeader;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.PaneTitle":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "PaneTitle", "String");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_32_NavigationView_PaneTitle;
-                xamlMember.Setter = set_32_NavigationView_PaneTitle;
+                xamlMember.Getter = get_107_NavigationView_PaneTitle;
+                xamlMember.Setter = set_107_NavigationView_PaneTitle;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.PaneToggleButtonStyle":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "PaneToggleButtonStyle", "Microsoft.UI.Xaml.Style");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_33_NavigationView_PaneToggleButtonStyle;
-                xamlMember.Setter = set_33_NavigationView_PaneToggleButtonStyle;
+                xamlMember.Getter = get_108_NavigationView_PaneToggleButtonStyle;
+                xamlMember.Setter = set_108_NavigationView_PaneToggleButtonStyle;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.SelectedItem":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "SelectedItem", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_34_NavigationView_SelectedItem;
-                xamlMember.Setter = set_34_NavigationView_SelectedItem;
+                xamlMember.Getter = get_109_NavigationView_SelectedItem;
+                xamlMember.Setter = set_109_NavigationView_SelectedItem;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.SelectionFollowsFocus":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "SelectionFollowsFocus", "Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_35_NavigationView_SelectionFollowsFocus;
-                xamlMember.Setter = set_35_NavigationView_SelectionFollowsFocus;
+                xamlMember.Getter = get_110_NavigationView_SelectionFollowsFocus;
+                xamlMember.Setter = set_110_NavigationView_SelectionFollowsFocus;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.SettingsItem":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "SettingsItem", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_36_NavigationView_SettingsItem;
+                xamlMember.Getter = get_111_NavigationView_SettingsItem;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.ShoulderNavigationEnabled":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "ShoulderNavigationEnabled", "Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_37_NavigationView_ShoulderNavigationEnabled;
-                xamlMember.Setter = set_37_NavigationView_ShoulderNavigationEnabled;
+                xamlMember.Getter = get_112_NavigationView_ShoulderNavigationEnabled;
+                xamlMember.Setter = set_112_NavigationView_ShoulderNavigationEnabled;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.TemplateSettings":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "TemplateSettings", "Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_38_NavigationView_TemplateSettings;
+                xamlMember.Getter = get_113_NavigationView_TemplateSettings;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItem.Icon":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "Icon", "Microsoft.UI.Xaml.Controls.IconElement");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_39_NavigationViewItem_Icon;
-                xamlMember.Setter = set_39_NavigationViewItem_Icon;
+                xamlMember.Getter = get_114_NavigationViewItem_Icon;
+                xamlMember.Setter = set_114_NavigationViewItem_Icon;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItem.CompactPaneLength":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "CompactPaneLength", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_40_NavigationViewItem_CompactPaneLength;
+                xamlMember.Getter = get_115_NavigationViewItem_CompactPaneLength;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItem.HasUnrealizedChildren":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "HasUnrealizedChildren", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_41_NavigationViewItem_HasUnrealizedChildren;
-                xamlMember.Setter = set_41_NavigationViewItem_HasUnrealizedChildren;
+                xamlMember.Getter = get_116_NavigationViewItem_HasUnrealizedChildren;
+                xamlMember.Setter = set_116_NavigationViewItem_HasUnrealizedChildren;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItem.InfoBadge":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "InfoBadge", "Microsoft.UI.Xaml.Controls.InfoBadge");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_42_NavigationViewItem_InfoBadge;
-                xamlMember.Setter = set_42_NavigationViewItem_InfoBadge;
+                xamlMember.Getter = get_117_NavigationViewItem_InfoBadge;
+                xamlMember.Setter = set_117_NavigationViewItem_InfoBadge;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItem.IsChildSelected":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "IsChildSelected", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_43_NavigationViewItem_IsChildSelected;
-                xamlMember.Setter = set_43_NavigationViewItem_IsChildSelected;
+                xamlMember.Getter = get_118_NavigationViewItem_IsChildSelected;
+                xamlMember.Setter = set_118_NavigationViewItem_IsChildSelected;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItem.IsExpanded":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "IsExpanded", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_44_NavigationViewItem_IsExpanded;
-                xamlMember.Setter = set_44_NavigationViewItem_IsExpanded;
+                xamlMember.Getter = get_119_NavigationViewItem_IsExpanded;
+                xamlMember.Setter = set_119_NavigationViewItem_IsExpanded;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItem.MenuItems":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "MenuItems", "System.Collections.Generic.IList`1<Object>");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_45_NavigationViewItem_MenuItems;
+                xamlMember.Getter = get_120_NavigationViewItem_MenuItems;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItem.MenuItemsSource":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "MenuItemsSource", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_46_NavigationViewItem_MenuItemsSource;
-                xamlMember.Setter = set_46_NavigationViewItem_MenuItemsSource;
+                xamlMember.Getter = get_121_NavigationViewItem_MenuItemsSource;
+                xamlMember.Setter = set_121_NavigationViewItem_MenuItemsSource;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItem.SelectsOnInvoked":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "SelectsOnInvoked", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_47_NavigationViewItem_SelectsOnInvoked;
-                xamlMember.Setter = set_47_NavigationViewItem_SelectsOnInvoked;
+                xamlMember.Getter = get_122_NavigationViewItem_SelectsOnInvoked;
+                xamlMember.Setter = set_122_NavigationViewItem_SelectsOnInvoked;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItemBase.IsSelected":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItemBase");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "IsSelected", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_48_NavigationViewItemBase_IsSelected;
-                xamlMember.Setter = set_48_NavigationViewItemBase_IsSelected;
+                xamlMember.Getter = get_123_NavigationViewItemBase_IsSelected;
+                xamlMember.Setter = set_123_NavigationViewItemBase_IsSelected;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Children":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "Children", "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>");
-                xamlMember.Getter = get_49_TreeViewNode_Children;
+                xamlMember.Getter = get_124_TreeViewNode_Children;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Content":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "Content", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_50_TreeViewNode_Content;
-                xamlMember.Setter = set_50_TreeViewNode_Content;
+                xamlMember.Getter = get_125_TreeViewNode_Content;
+                xamlMember.Setter = set_125_TreeViewNode_Content;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Depth":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "Depth", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_51_TreeViewNode_Depth;
+                xamlMember.Getter = get_126_TreeViewNode_Depth;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasChildren":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "HasChildren", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_52_TreeViewNode_HasChildren;
+                xamlMember.Getter = get_127_TreeViewNode_HasChildren;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasUnrealizedChildren":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "HasUnrealizedChildren", "Boolean");
-                xamlMember.Getter = get_53_TreeViewNode_HasUnrealizedChildren;
-                xamlMember.Setter = set_53_TreeViewNode_HasUnrealizedChildren;
+                xamlMember.Getter = get_128_TreeViewNode_HasUnrealizedChildren;
+                xamlMember.Setter = set_128_TreeViewNode_HasUnrealizedChildren;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.IsExpanded":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "IsExpanded", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_54_TreeViewNode_IsExpanded;
-                xamlMember.Setter = set_54_TreeViewNode_IsExpanded;
+                xamlMember.Getter = get_129_TreeViewNode_IsExpanded;
+                xamlMember.Setter = set_129_TreeViewNode_IsExpanded;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Parent":
                 userType = (global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::WMSLite.App.WMSLite_App_XamlTypeInfo.XamlMember(this, "Parent", "Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember.Getter = get_55_TreeViewNode_Parent;
+                xamlMember.Getter = get_130_TreeViewNode_Parent;
                 xamlMember.SetIsReadOnly();
                 break;
             }

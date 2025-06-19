@@ -14,7 +14,7 @@ namespace WMSLite.App.Services
     internal class ApiService
     {
         private readonly HttpClient httpClient;
-        private const string BaseApiUrl = "https://localhost:7034/";
+        private const string BaseApiUrl = "https://localhost:7247/";
 
         public ApiService()
         {

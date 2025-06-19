@@ -9,7 +9,7 @@
     mc:Ignorable="d">
 
     <Grid>
-
+        <TextBlock Text="Widok dokumentów - do implementacji" HorizontalAlignment="Center" VerticalAlignment="Center"/>
     </Grid>
 </Page>
 
