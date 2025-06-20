@@ -1,29 +1,12 @@
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
-using Microsoft.UI.Xaml.Controls.Primitives;
-using Microsoft.UI.Xaml.Data;
-using Microsoft.UI.Xaml.Input;
-using Microsoft.UI.Xaml.Media;
-using Microsoft.UI.Xaml.Navigation;
 using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
-using WMSLite.App.Dialogs;
+using System.Threading.Tasks;
 using WMSLite.App.Models;
 using WMSLite.App.ViewModels;
 
-// To learn more about WinUI, the WinUI project structure,
-// and more about our project templates, see: http://aka.ms/winui-project-info.
-
 namespace WMSLite.App.Views
 {
-    /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
-    /// </summary>
     public sealed partial class ContractorsPage : Page
     {
         public ContractorsViewModel ViewModel { get; }
@@ -31,47 +14,61 @@ namespace WMSLite.App.Views
         public ContractorsPage()
         {
             this.InitializeComponent();
-            ViewModel = new ContractorsViewModel();
-            this.Loaded += async (s, e) => await ViewModel.LoadContractorsCommand.ExecuteAsync(null);
+            ViewModel = App.Current.Services.GetService(typeof(ContractorsViewModel)) as ContractorsViewModel;
         }
 
-        private async void AddButton_Click(object sender, RoutedEventArgs e)
+        private async void Page_Loaded(object sender, RoutedEventArgs e)
         {
-            var newContractor = new Contractor();
-            var dialog = new ContractorDialog(newContractor)
-            {
-                XamlRoot = this.XamlRoot,
-                RequestedTheme = this.ActualTheme
-            };
+            await ViewModel.LoadContractorsAsync();
+        }
 
-            var result = await dialog.ShowAsync();
-            if (result == ContentDialogResult.Primary)
+        private async void AddContractor_Click(object sender, RoutedEventArgs e)
+        {
+            await ShowEditContractorDialog(new Contractor());
+        }
+
+        private async void Contractor_DoubleTapped(object sender, Microsoft.UI.Xaml.Input.DoubleTappedRoutedEventArgs e)
+        {
+            if (((ListView)sender).SelectedItem is Contractor selected)
             {
-                await ViewModel.AddContractorCommand.ExecuteAsync(dialog.Contractor);
+                await ShowEditContractorDialog(selected);
             }
         }
 
-        private async void EditButton_Click(object sender, RoutedEventArgs e)
+        private async Task ShowEditContractorDialog(Contractor contractor)
         {
-            if (ContractorsGrid.SelectedItem is Contractor selectedContractor)
+            bool isNew = contractor.Id == 0;
+
+            var symbolTextBox = new TextBox { Header = "Symbol", Text = contractor.Symbol ?? "" };
+            var nameTextBox = new TextBox { Header = "Nazwa", Text = contractor.Name ?? "" };
+
+            var content = new StackPanel { Spacing = 12 };
+            content.Children.Add(symbolTextBox);
+            content.Children.Add(nameTextBox);
+
+            var dialog = new ContentDialog
             {
-                var contractorToEdit = new Contractor
-                {
-                    Id = selectedContractor.Id,
-                    Name = selectedContractor.Name,
-                    Symbol = selectedContractor.Symbol
-                };
+                Title = isNew ? "Dodaj nowego kontrahenta" : "Edytuj kontrahenta",
+                PrimaryButtonText = "Zapisz",
+                CloseButtonText = "Anuluj",
+                Content = content,
+                XamlRoot = this.XamlRoot
+            };
 
-                var dialog = new ContractorDialog(contractorToEdit)
-                {
-                    XamlRoot = this.XamlRoot,
-                    RequestedTheme = this.ActualTheme
-                };
-                var result = await dialog.ShowAsync();
+            var result = await dialog.ShowAsync();
 
-                if (result == ContentDialogResult.Primary)
+            if (result == ContentDialogResult.Primary)
+            {
+                contractor.Symbol = symbolTextBox.Text;
+                contractor.Name = nameTextBox.Text;
+
+                if (isNew)
                 {
-                    await ViewModel.UpdateContractorCommand.ExecuteAsync(dialog.Contractor);
+                    await ViewModel.AddContractorCommand.ExecuteAsync(contractor);
+                }
+                else
+                {
+                    await ViewModel.UpdateContractorCommand.ExecuteAsync(contractor);
                 }
             }
         }

@@ -25,15 +25,16 @@ namespace WMSLite.Api.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<GoodsReceiptDocument>>> GetGoodsReceiptDocuments()
         {
-            return await _context.GoodsReceiptDocuments.Include(d => d.Contractor)
-                                                        .ToListAsync();
+            return await _context.GoodsReceiptDocuments.ToListAsync();
         }
 
         // GET: api/GoodsReceiptDocuments/5
         [HttpGet("{id}")]
         public async Task<ActionResult<GoodsReceiptDocument>> GetGoodsReceiptDocument(int id)
         {
-            var goodsReceiptDocument = await _context.GoodsReceiptDocuments.Include(d => d.Contractor).Include(d => d.DocumentItems).FirstOrDefaultAsync(d => d.Id == id); ;
+            var goodsReceiptDocument = await _context.GoodsReceiptDocuments
+                .Include(d => d.DocumentItems)
+                .FirstOrDefaultAsync(d => d.Id == id);
 
             if (goodsReceiptDocument == null)
             {
@@ -44,7 +45,6 @@ namespace WMSLite.Api.Controllers
         }
 
         // PUT: api/GoodsReceiptDocuments/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
         public async Task<IActionResult> PutGoodsReceiptDocument(int id, GoodsReceiptDocument goodsReceiptDocument)
         {
@@ -54,6 +54,11 @@ namespace WMSLite.Api.Controllers
             }
 
             _context.Entry(goodsReceiptDocument).State = EntityState.Modified;
+
+            foreach (var item in goodsReceiptDocument.DocumentItems)
+            {
+                _context.Entry(item).State = EntityState.Unchanged;
+            }
 
             try
             {
@@ -75,7 +80,6 @@ namespace WMSLite.Api.Controllers
         }
 
         // POST: api/GoodsReceiptDocuments
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
         public async Task<ActionResult<GoodsReceiptDocument>> PostGoodsReceiptDocument(GoodsReceiptDocument goodsReceiptDocument)
         {

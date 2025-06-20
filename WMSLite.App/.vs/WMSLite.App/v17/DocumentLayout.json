@@ -1,72 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Projekty Studia\\Zbi\u00F3r projekt\u00F3w\\WMSLite\\WMSLite.App\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{30E25759-15AA-4854-9745-40B2BF7D08E3}|WMSLite.App\\WMSLite.App.csproj|d:\\projekty studia\\zbi\u00F3r projekt\u00F3w\\wmslite\\wmslite.app\\wmslite.app\\viewmodels\\contractorsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30E25759-15AA-4854-9745-40B2BF7D08E3}|WMSLite.App\\WMSLite.App.csproj|solutionrelative:wmslite.app\\viewmodels\\contractorsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30E25759-15AA-4854-9745-40B2BF7D08E3}|WMSLite.App\\WMSLite.App.csproj|d:\\projekty studia\\zbi\u00F3r projekt\u00F3w\\wmslite\\wmslite.app\\wmslite.app\\views\\contractorspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30E25759-15AA-4854-9745-40B2BF7D08E3}|WMSLite.App\\WMSLite.App.csproj|solutionrelative:wmslite.app\\views\\contractorspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30E25759-15AA-4854-9745-40B2BF7D08E3}|WMSLite.App\\WMSLite.App.csproj|d:\\projekty studia\\zbi\u00F3r projekt\u00F3w\\wmslite\\wmslite.app\\wmslite.app\\views\\contractorspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{30E25759-15AA-4854-9745-40B2BF7D08E3}|WMSLite.App\\WMSLite.App.csproj|solutionrelative:wmslite.app\\views\\contractorspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ContractorsViewModel.cs",
-              "DocumentMoniker": "D:\\Projekty Studia\\Zbi\u00F3r projekt\u00F3w\\WMSLite\\WMSLite.App\\WMSLite.App\\ViewModels\\ContractorsViewModel.cs",
-              "RelativeDocumentMoniker": "WMSLite.App\\ViewModels\\ContractorsViewModel.cs",
-              "ToolTip": "D:\\Projekty Studia\\Zbi\u00F3r projekt\u00F3w\\WMSLite\\WMSLite.App\\WMSLite.App\\ViewModels\\ContractorsViewModel.cs",
-              "RelativeToolTip": "WMSLite.App\\ViewModels\\ContractorsViewModel.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAiwB4AAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T13:37:28.246Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ContractorsPage.xaml.cs",
-              "DocumentMoniker": "D:\\Projekty Studia\\Zbi\u00F3r projekt\u00F3w\\WMSLite\\WMSLite.App\\WMSLite.App\\Views\\ContractorsPage.xaml.cs",
-              "RelativeDocumentMoniker": "WMSLite.App\\Views\\ContractorsPage.xaml.cs",
-              "ToolTip": "D:\\Projekty Studia\\Zbi\u00F3r projekt\u00F3w\\WMSLite\\WMSLite.App\\WMSLite.App\\Views\\ContractorsPage.xaml.cs",
-              "RelativeToolTip": "WMSLite.App\\Views\\ContractorsPage.xaml.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAswDIAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T14:41:52.069Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ContractorsPage.xaml",
-              "DocumentMoniker": "D:\\Projekty Studia\\Zbi\u00F3r projekt\u00F3w\\WMSLite\\WMSLite.App\\WMSLite.App\\Views\\ContractorsPage.xaml",
-              "RelativeDocumentMoniker": "WMSLite.App\\Views\\ContractorsPage.xaml",
-              "ToolTip": "D:\\Projekty Studia\\Zbi\u00F3r projekt\u00F3w\\WMSLite\\WMSLite.App\\WMSLite.App\\Views\\ContractorsPage.xaml",
-              "RelativeToolTip": "WMSLite.App\\Views\\ContractorsPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-18T14:41:50.479Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

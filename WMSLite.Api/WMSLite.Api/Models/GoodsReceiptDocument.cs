@@ -13,7 +13,5 @@ public partial class GoodsReceiptDocument
 
     public int ContractorId { get; set; }
 
-    public virtual Contractor Contractor { get; set; } = null!;
-
     public virtual ICollection<DocumentItem> DocumentItems { get; set; } = new List<DocumentItem>();
 }

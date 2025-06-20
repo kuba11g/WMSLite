@@ -43,7 +43,6 @@ namespace WMSLite.Api.Controllers
         }
 
         // PUT: api/DocumentItems/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
         public async Task<IActionResult> PutDocumentItem(int id, DocumentItem documentItem)
         {
@@ -74,14 +73,27 @@ namespace WMSLite.Api.Controllers
         }
 
         // POST: api/DocumentItems
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
         public async Task<ActionResult<DocumentItem>> PostDocumentItem(DocumentItem documentItem)
         {
-            _context.DocumentItems.Add(documentItem);
+            var parentDocument = await _context.GoodsReceiptDocuments.FindAsync(documentItem.GoodsReceiptDocumentId);
+            if (parentDocument == null)
+            {
+                return BadRequest(new { message = $"Nie znaleziono dokumentu o ID: {documentItem.GoodsReceiptDocumentId}" });
+            }
+
+            var newEntity = new DocumentItem
+            {
+                ProductName = documentItem.ProductName,
+                UnitOfMeasure = documentItem.UnitOfMeasure,
+                Quantity = documentItem.Quantity,
+                GoodsReceiptDocumentId = documentItem.GoodsReceiptDocumentId
+            };
+
+            _context.DocumentItems.Add(newEntity);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetDocumentItem", new { id = documentItem.Id }, documentItem);
+            return CreatedAtAction("GetDocumentItem", new { id = newEntity.Id }, newEntity);
         }
 
         // DELETE: api/DocumentItems/5

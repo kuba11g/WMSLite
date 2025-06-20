@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Projekty Studia\\Zbi\u00F3r projekt\u00F3w\\WMSLite\\WMSLite.Api\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BF6C738A-ED22-4B2E-82C3-6D8C06C70BD4}|WMSLite.Api\\WMSLite.Api.csproj|d:\\projekty studia\\zbi\u00F3r projekt\u00F3w\\wmslite\\wmslite.api\\wmslite.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF6C738A-ED22-4B2E-82C3-6D8C06C70BD4}|WMSLite.Api\\WMSLite.Api.csproj|solutionrelative:wmslite.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projekty Studia\\Zbi\u00F3r projekt\u00F3w\\WMSLite\\WMSLite.Api\\WMSLite.Api\\Program.cs",
+              "RelativeDocumentMoniker": "WMSLite.Api\\Program.cs",
+              "ToolTip": "D:\\Projekty Studia\\Zbi\u00F3r projekt\u00F3w\\WMSLite\\WMSLite.Api\\WMSLite.Api\\Program.cs",
+              "RelativeToolTip": "WMSLite.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T22:31:17.112Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

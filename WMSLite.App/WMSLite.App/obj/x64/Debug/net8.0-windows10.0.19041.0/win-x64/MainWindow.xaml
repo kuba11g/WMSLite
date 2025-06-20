@@ -1,0 +1,24 @@
+﻿<Window
+    x:Class="WMSLite.App.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid>
+        <NavigationView x:ConnectionId='2' x:Name="NavView" 
+                        PaneDisplayMode="Left" 
+                        IsSettingsVisible="False" 
+                                                         
+                                                             >
+            <NavigationView.MenuItems>
+                <NavigationViewItem Content="Pulpit" Tag="Home" Icon="Home"/>
+                <NavigationViewItem Content="Dokumenty przyjęć" Tag="Documents" Icon="Document"/>
+                <NavigationViewItem Content="Kontrahenci" Tag="Contractors" Icon="ContactInfo"/>
+            </NavigationView.MenuItems>
+            <Frame x:ConnectionId='3' x:Name="ContentFrame"                                   />
+        </NavigationView>
+    </Grid>
+</Window>
+

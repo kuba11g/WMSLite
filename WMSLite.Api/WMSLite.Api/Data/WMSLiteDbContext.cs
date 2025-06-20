@@ -43,10 +43,6 @@ public partial class WMSLiteDbContext : DbContext
             entity.Property(e => e.ProductName).HasMaxLength(255);
             entity.Property(e => e.Quantity).HasColumnType("decimal(18, 3)");
             entity.Property(e => e.UnitOfMeasure).HasMaxLength(50);
-
-            entity.HasOne(d => d.GoodsReceiptDocument).WithMany(p => p.DocumentItems)
-                .HasForeignKey(d => d.GoodsReceiptDocumentId)
-                .HasConstraintName("FK_DocumentItems_GoodsReceiptDocuments");
         });
 
         modelBuilder.Entity<GoodsReceiptDocument>(entity =>
@@ -54,10 +50,6 @@ public partial class WMSLiteDbContext : DbContext
             entity.HasKey(e => e.Id).HasName("PK__GoodsRec__3214EC07E5CAAD06");
 
             entity.Property(e => e.Symbol).HasMaxLength(50);
-
-            entity.HasOne(d => d.Contractor).WithMany(p => p.GoodsReceiptDocuments)
-                .HasForeignKey(d => d.ContractorId)
-                .HasConstraintName("FK_GoodsReceiptDocuments_Contractors");
         });
 
         OnModelCreatingPartial(modelBuilder);

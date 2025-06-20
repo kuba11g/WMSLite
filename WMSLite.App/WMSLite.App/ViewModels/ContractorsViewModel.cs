@@ -1,10 +1,6 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
-using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using WMSLite.App.Models;
 using WMSLite.App.Services;
@@ -13,36 +9,39 @@ namespace WMSLite.App.ViewModels
 {
     public partial class ContractorsViewModel : ObservableObject
     {
-        private readonly ApiService apiService;
+        private readonly ApiClient _apiClient;
 
         [ObservableProperty]
-        private ObservableCollection<Contractor> contractors;
+        private ObservableCollection<Contractor> _contractors;
 
-        public ContractorsViewModel()
+        public ContractorsViewModel(ApiClient apiClient)
         {
-            apiService = new ApiService();
-            LoadContractorsCommand = new AsyncRelayCommand(LoadContractorsAsync);
+            _apiClient = apiClient;
+            Contractors = new ObservableCollection<Contractor>();
         }
 
-        public IAsyncRelayCommand LoadContractorsCommand { get; private set; }
-
-        private async Task LoadContractorsAsync()
+        [RelayCommand]
+        public async Task LoadContractorsAsync()
         {
-            var contractorsList = await apiService.GetContractorsAsync();
-            Contractors = new ObservableCollection<Contractor>(contractorsList);
+            var contractorsList = await _apiClient.GetContractorsAsync();
+            Contractors.Clear();
+            foreach (var contractor in contractorsList)
+            {
+                Contractors.Add(contractor);
+            }
         }
 
         [RelayCommand]
         private async Task AddContractorAsync(Contractor contractor)
         {
-            await apiService.AddContractorAsync(contractor);
-            await LoadContractorsAsync();
+            var newContractor = await _apiClient.AddContractorAsync(contractor);
+            Contractors.Add(newContractor);
         }
 
         [RelayCommand]
         private async Task UpdateContractorAsync(Contractor contractor)
         {
-            await apiService.UpdateContractorAsync(contractor);
+            await _apiClient.UpdateContractorAsync(contractor.Id, contractor);
             await LoadContractorsAsync();
         }
     }

@@ -8,7 +8,7 @@
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
     <SolutionConfiguration>Debug|x64</SolutionConfiguration>
     <PackageArchitecture>x64</PackageArchitecture>
-    <PackageIdentityName>c50a9518-6541-4364-a89e-373dd2ee7dd2</PackageIdentityName>
+    <PackageIdentityName>6347e5f4-e24b-4125-b3dd-2616008495db</PackageIdentityName>
     <PackageIdentityPublisher>CN=table</PackageIdentityPublisher>
     <IntermediateOutputPath>D:\Projekty Studia\Zbiór projektów\WMSLite\WMSLite.App\WMSLite.App\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
@@ -222,9 +222,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\table\.nuget\packages\microsoft.netcore.app.runtime.win-x64\8.0.17\runtimes\win-x64\lib\net8.0\System.Memory.dll">
       <PackagePath>System.Memory.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\table\.nuget\packages\microsoft.netcore.app.runtime.win-x64\8.0.17\runtimes\win-x64\lib\net8.0\System.Net.Http.Json.dll">
-      <PackagePath>System.Net.Http.Json.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\table\.nuget\packages\microsoft.netcore.app.runtime.win-x64\8.0.17\runtimes\win-x64\lib\net8.0\System.Net.Http.dll">
       <PackagePath>System.Net.Http.dll</PackagePath>
@@ -445,12 +442,6 @@
     <AppxPackagedFile Include="C:\Users\table\.nuget\packages\microsoft.netcore.app.runtime.win-x64\8.0.17\runtimes\win-x64\lib\net8.0\System.Text.Encoding.dll">
       <PackagePath>System.Text.Encoding.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\table\.nuget\packages\microsoft.netcore.app.runtime.win-x64\8.0.17\runtimes\win-x64\lib\net8.0\System.Text.Encodings.Web.dll">
-      <PackagePath>System.Text.Encodings.Web.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\table\.nuget\packages\microsoft.netcore.app.runtime.win-x64\8.0.17\runtimes\win-x64\lib\net8.0\System.Text.Json.dll">
-      <PackagePath>System.Text.Json.dll</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\table\.nuget\packages\microsoft.netcore.app.runtime.win-x64\8.0.17\runtimes\win-x64\lib\net8.0\System.Text.RegularExpressions.dll">
       <PackagePath>System.Text.RegularExpressions.dll</PackagePath>
     </AppxPackagedFile>
@@ -592,8 +583,11 @@
     <AppxPackagedFile Include="C:\Users\table\.nuget\packages\communitytoolkit.mvvm\8.4.0\lib\net8.0-windows10.0.17763\CommunityToolkit.Mvvm.dll">
       <PackagePath>CommunityToolkit.Mvvm.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\table\.nuget\packages\communitytoolkit.winui.ui.controls.datagrid\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.UI.Controls.DataGrid.dll">
-      <PackagePath>CommunityToolkit.WinUI.UI.Controls.DataGrid.dll</PackagePath>
+    <AppxPackagedFile Include="C:\Users\table\.nuget\packages\microsoft.extensions.dependencyinjection\9.0.6\lib\net8.0\Microsoft.Extensions.DependencyInjection.dll">
+      <PackagePath>Microsoft.Extensions.DependencyInjection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\table\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\9.0.6\lib\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+      <PackagePath>Microsoft.Extensions.DependencyInjection.Abstractions.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\table\.nuget\packages\microsoft.windowsappsdk\1.7.250606001\lib\net6.0-windows10.0.18362.0\Microsoft.Graphics.Imaging.Projection.dll">
       <PackagePath>Microsoft.Graphics.Imaging.Projection.dll</PackagePath>
@@ -670,6 +664,18 @@
     <AppxPackagedFile Include="C:\Users\table\.nuget\packages\microsoft.windowsappsdk\1.7.250606001\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\table\.nuget\packages\system.io.pipelines\9.0.6\lib\net8.0\System.IO.Pipelines.dll">
+      <PackagePath>System.IO.Pipelines.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\table\.nuget\packages\system.net.http.json\9.0.6\lib\net8.0\System.Net.Http.Json.dll">
+      <PackagePath>System.Net.Http.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\table\.nuget\packages\system.text.encodings.web\9.0.6\lib\net8.0\System.Text.Encodings.Web.dll">
+      <PackagePath>System.Text.Encodings.Web.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\table\.nuget\packages\system.text.json\9.0.6\lib\net8.0\System.Text.Json.dll">
+      <PackagePath>System.Text.Json.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\table\.nuget\packages\microsoft.web.webview2\1.0.2903.40\runtimes\win-x64\native\WebView2Loader.dll">
       <PackagePath>WebView2Loader.dll</PackagePath>
     </AppxPackagedFile>
@@ -687,9 +693,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projekty Studia\Zbiór projektów\WMSLite\WMSLite.App\WMSLite.App\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\WMSLite.App.deps.json">
       <PackagePath>WMSLite.App.deps.json</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\table\.nuget\packages\communitytoolkit.winui.ui.controls.datagrid\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.UI.Controls.DataGrid.pri">
-      <PackagePath>CommunityToolkit.WinUI.UI.Controls.DataGrid.pri</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projekty Studia\Zbiór projektów\WMSLite\WMSLite.App\WMSLite.App\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>

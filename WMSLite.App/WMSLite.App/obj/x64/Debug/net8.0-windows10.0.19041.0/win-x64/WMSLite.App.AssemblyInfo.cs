@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WMSLite.App")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a6b328c07e7d00bb6081fc0dcddccb09292d39b4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc05753afb06800f10e42321897fc35180dc0859")]
 [assembly: System.Reflection.AssemblyProductAttribute("WMSLite.App")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WMSLite.App")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

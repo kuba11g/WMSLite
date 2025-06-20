@@ -7,8 +7,8 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="c50a9518-6541-4364-a89e-373dd2ee7dd2" Publisher="CN=table" Version="1.0.0.0" ProcessorArchitecture="x64" />
-  <mp:PhoneIdentity PhoneProductId="c50a9518-6541-4364-a89e-373dd2ee7dd2" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Identity Name="6347e5f4-e24b-4125-b3dd-2616008495db" Publisher="CN=table" Version="1.0.0.0" ProcessorArchitecture="x64" />
+  <mp:PhoneIdentity PhoneProductId="6347e5f4-e24b-4125-b3dd-2616008495db" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>WMSLite.App</DisplayName>
     <PublisherDisplayName>table</PublisherDisplayName>

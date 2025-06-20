@@ -610,9 +610,6 @@
           "goodsReceiptDocumentId": {
             "type": "integer",
             "format": "int32"
-          },
-          "goodsReceiptDocument": {
-            "$ref": "#/components/schemas/GoodsReceiptDocument"
           }
         },
         "additionalProperties": false
@@ -635,9 +632,6 @@
           "contractorId": {
             "type": "integer",
             "format": "int32"
-          },
-          "contractor": {
-            "$ref": "#/components/schemas/Contractor"
           },
           "documentItems": {
             "type": "array",
